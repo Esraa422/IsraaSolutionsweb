@@ -1,0 +1,167 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Contact Us 2")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<div class="bg-map">
+    <section class="page-header">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb bg-transparent pr-0 pl-0 mb-0 fs-14">
+                            <li class="breadcrumb-item"><a class="text-primary anim-link-2 anim-link-2-primary" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-primary anim-link-2 anim-link-2-primary" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-primary active o-4" aria-current="page">Contact Us 2</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="vertical-center" style="min-height:475px">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="clearfix mnt-8">
+                        <p class="h4 primary-color mb-3">Contact Us</p>
+                        <h2 class="mb-4">
+                            Let's discuss recommendation solution <br />
+                            for your project or product
+                        </h2>
+                        <p class="mt-3 mb-4">
+                            or any additional information you need to know about nettex <br />
+                            at <a href="mailto:support@yourdomain.com" class="anim-link-2 anim-link-2-primary">support@yourdomain.com</a> or call on
+                            <a href="tel:+90 212 590 5680" class="text-primary anim-link-2 anim-link-2-primary">+90 212 590 5680</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oval-divider--bottom"></div>
+    </section>
+
+    <section class="m-gab-3-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                    <a class="card text-white text-center bg-img py-8 mb-4 mr-5" href="#" style="background-image: url(/Content/img/thumb/12.jpg);">
+                        <div class="overlay" style="background-color: #0c4b63"></div>
+                        <div class="position-relative">
+                            <h3 class="fw-500 mb-0">Los Angeles</h3>
+                        </div>
+                    </a>
+                    <span class="fs-14 o-7">USA</span>
+                    <h3 class="h5">Los Angeles</h3>
+                    <span class="d-block">1234 Street Name, City Name</span>
+                    <a href="mailto:example@domain.com">example@domain.com</a>
+                    <span class="d-block mb-3">
+                        <a href="tel:+90 212 590 5680" class="text-primary anim-link-2 anim-link-2-primary">+90 212 590 5680</a>
+                    </span>
+                    <a href="#" class="anim-link-2 anim-link-2-primary" onclick="showDirectionOnMap('34.0247948', '-118.3543755', event)">
+                        Get Directions
+                        <span class="fas fa-angle-right align-middle ml-1 fs-13"></span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                    <a class="card text-white text-center bg-img py-8 mb-4 mr-5" href="#" style="background-image: url(/Content/img/thumb/14.jpg);">
+                        <div class="overlay" style="background-color: #4a080d"></div>
+                        <div class="position-relative">
+                            <h3 class="fw-500 mb-0">London</h3>
+                        </div>
+                    </a>
+
+                    <span class="fs-14 o-7">USA</span>
+                    <h3 class="h5">London</h3>
+                    <span class="d-block">1234 Street Name, City Name</span>
+                    <a href="mailto:example@domain.com">example@domain.com</a>
+                    <span class="d-block mb-3">
+                        <a href="tel:+90 212 590 5680" class="text-primary anim-link-2 anim-link-2-primary">+90 212 590 5680</a>
+                    </span>
+                    <a href="#" class="anim-link-2 anim-link-2-primary" onclick="showDirectionOnMap('40.75198', '-73.96978', event)">
+                        Get Directions
+                        <span class="fas fa-angle-right align-middle ml-1 fs-13"></span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a class="card text-white text-center bg-img py-8 mb-4 mr-5" href="#" style="background-image: url(/Content/img/thumb/15.jpg);">
+                        <div class="overlay" style="background-color: #400354"></div>
+                        <div class="position-relative">
+                            <h3 class="fw-500 mb-0">Munich</h3>
+                        </div>
+                    </a>
+
+                    <span class="fs-14 o-7">GERMANY</span>
+                    <h3 class="h5">Munich</h3>
+                    <span class="d-block">1234 Street Name, City Name</span>
+                    <a href="mailto:example@domain.com">example@domain.com</a>
+                    <span class="d-block mb-3">
+                        <a href="tel:+90 212 590 5680" class="text-primary anim-link-2 anim-link-2-primary">+90 212 590 5680</a>
+                    </span>
+                    <a href="#" class="anim-link-2 anim-link-2-primary" onclick="showDirectionOnMap('48.1536012', '11.5226179', event)">
+                        Get Directions
+                        <span class="fas fa-angle-right align-middle ml-1 fs-13"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="googlemaps" class="google-map google-map-burst-height h-600">
+        <div class="position-absolute w-100 h-100"
+             data-provide="map"
+             data-lat="41.0187429"
+             data-lng="28.6390396"
+             data-marker-lat="41.0187429"
+             data-marker-lng="28.6390396"
+             data-info="Üçevler mah, Urfalılar Cd. No:71/C, 34513 Esenyurt/İstanbul"></div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-8 col-lg-5">
+                    <div class="card text-white bg-img h-600 border-0 rounded-0" style="background-image: url(/Content/img/phone-womany.jpg);" data-overlay="8">
+                        <div class="row px-7 py-8">
+                            <div class="col-12">
+                                <h4 class="h2 mb-2">
+                                    Contact Us
+                                </h4>
+                                <p class="text-white-50 mb-6">
+                                    Enter your email address to receive all
+                                    news and promotions from Ave.
+                                </p>
+
+                                <form class="input-glass">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <select class="form-control" placeholder="Select input">
+                                            <option>Select</option>
+                                            <option>Startup</option>
+                                            <option>Business</option>
+                                            <option>Enterprise</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                    </div>
+                                    <a href="#" class="btn btn-primary  btn-block transition-hover">
+                                        Send Message
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

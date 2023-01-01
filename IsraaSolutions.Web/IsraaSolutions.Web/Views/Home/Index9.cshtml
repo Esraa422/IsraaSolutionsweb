@@ -1,0 +1,689 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Home 9")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.TextColor(BootstrapColor.Light);
+        settings.Transparency(HeaderTransparency.Transparent);
+    })
+    .Footer(footer =>
+    {
+        footer.ViewName("FooterDark");
+    })
+)
+
+<section data-scrim-top="8" class="vertical-center bg-img h-100vh" style="background-image:url(/Content/img/hero/h6.jpg);">
+    <div class="container">
+        <div class="row align-items-center mnb-4">
+            <div class="col-md-8">
+                <div class="clearfix">
+                    <h2 class="text-white font-weight-bold fs-75">
+                        Let's <br />
+                        Work Together
+                    </h2>
+                    <p class="text-white mt-3 mb-4 lead">
+                        Provide contextual feedback messages for typical user actions with the  <br />handful of available and flexible alert messages.
+                    </p>
+                    <a href="#getStarted" class="btn btn-outline-light">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                    <div class="m-video-link--text text-white">
+                        <div>Watch</div>
+                        <div class="font-weight-bold">INTRO VIDEO</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                <div class="media">
+                    <div class="mr-8" data-overlay="3">
+                        <img src="/Content/img/bx1.jpg" width="390" />
+                    </div>
+                    <div class="media-body">
+                        <p class="primary-color mb-0">HWO WE ARE</p>
+                        <h2 class="fs-45 mt-0 mb-3">Creativity Is <br /> Our Hobit. </h2>
+                        <div class="media">
+                            <div class="mr-4">
+                                <p class="fs-50 o-3">01</p>
+                            </div>
+                            <div class="media-body">
+                                <p>
+                                    Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum porttitor.
+                                </p>
+                                <a class="common-Link--arrow common-BodyText" href="#">More details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="media">
+                    <div class="media-body mt-7">
+                        <p class="primary-color mb-0">OUR MISSION</p>
+                        <h2 class="fs-45 mt-0 mb-3">Keep Simple <br /> Stupit. </h2>
+                        <div class="media">
+                            <div class="mr-4">
+                                <p class="fs-50 o-3">02</p>
+                            </div>
+                            <div class="media-body">
+                                <p>
+                                    Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum porttitor.
+                                </p>
+                                <a class="common-Link--arrow common-BodyText" href="#">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-8">
+                        <img src="/Content/img/mix/s3.jpg" width="385" class="mnt-15" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-overlay="3" class="vertical-center" style="background-image:url(/Content/img/hero/h8.jpg); background-size:cover; min-height:500px">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 mnt-5">
+                <div class="clearfix">
+                    <h2 class="text-white font-weight-bold fs-40 mnt-5">
+                        Alert Change Together
+                    </h2>
+                    <p class="text-white mt-3 mb-4">
+                        Provide contextual feedback messages for typical user actions with the handful <br /> of available and flexible alert messages.
+                    </p>
+                    <a href="#getStarted" class="btn btn-outline-light">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                    <div class="m-video-link--text text-white">
+                        <div>Watch</div>
+                        <div class="font-weight-bold">INTRO VIDEO</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--7"></div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <p class="mb-0 text-primary">WORKS</p>
+            <h2>Work Showcase</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+
+                <div class="cbp"
+                     data-layout-mode="grid"
+                     data-animation-type='slideDelay'
+                     data-caption='overlayBottomAlong'
+                     data-display-type='bottomToTop'
+                     data-display-type-speed="100"
+                     data-gap-horizontal="15"
+                     data-gap-vertical="15"
+                     data-media-queries='[
+                                {"width": 1500, "cols": 4},
+                                {"width": 1100, "cols": 4},
+                                {"width": 800, "cols": 3},
+                                {"width": 480, "cols": 2},
+                                {"width": 300, "cols": 1}
+                              ]'>
+                    <div class="cbp-item identity">
+                        <a href="/Content/img/work/masonary/1.jpg" class="cbp-caption cbp-lightbox" data-title="Easy Note<br>by Cosmin Capitanu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/8.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Coffee Pack</div>
+                                        <div class="cbp-l-caption-desc">Mockup</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design">
+                        <a href="/Content/img/work/masonary/2.jpg" class="cbp-caption cbp-lightbox" data-title="The Gang Blue<br>by Cosmin Capitanu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/2.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Paper Pouch</div>
+                                        <div class="cbp-l-caption-desc">Design</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item graphic identity">
+                        <a href="/Content/img/work/masonary/3.jpg" class="cbp-caption cbp-lightbox" data-title="Tiger<br>by Cosmin Capitanu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/3.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Frame With Wall</div>
+                                        <div class="cbp-l-caption-desc">Artwork</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item identity">
+                        <a href="/Content/img/work/masonary/5.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/5.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Shampoo Bottle</div>
+                                        <div class="cbp-l-caption-desc">Mockup</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design">
+                        <a href="/Content/img/work/masonary/7.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/7.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Tape Mockup</div>
+                                        <div class="cbp-l-caption-desc">Mockup</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item graphic">
+                        <a href="/Content/img/work/masonary/6.jpg" class="cbp-caption cbp-lightbox" data-title="Remind~Me More<br>by Tiberiu Neamu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/6.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Brandminute Bottle</div>
+                                        <div class="cbp-l-caption-desc">Artwork</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <p class="mb-0 text-primary">FEATURES</p>
+            <h2> Core Features</h2>
+        </div>
+        <div class="row justify-content-center">
+
+            <div class="col-md-11 v-icon-box-grid" data-columns="3" data-colour="dark">
+                <div class="spb_icon_box col-sm-12">
+                    <a class="box-link" href="#" target="_self"></a>
+                    <div class="v-icon-box-content-wrap clearfix">
+                        <div class="v-icon-box-inner-wrap clearfix">
+                            <div class="grid-icon-wrap clearfix">
+                                <a href="#">
+                                    <div class="v-svg-icon-holder v-svg-icon-animate">
+                                        <i class="icon-brush-2"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="divider-line"></div>
+                            <h3 class="h5"> Simple, Easy-To-Use<br> and Intuitive </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spb_icon_box col-sm-12">
+                    <div class="v-icon-box-content-wrap clearfix">
+                        <div class="v-icon-box-inner-wrap clearfix">
+                            <div class="grid-icon-wrap clearfix">
+                                <div class="v-svg-icon-holder v-svg-icon-animate">
+                                    <i class="icon-layers"></i>
+                                </div>
+                            </div>
+                            <div class="divider-line"></div>
+                            <h3 class="h5">Engineered for Accelerated Performance</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spb_icon_box col-sm-12">
+                    <div class="v-icon-box-content-wrap clearfix">
+                        <div class="v-icon-box-inner-wrap clearfix">
+                            <div class="grid-icon-wrap clearfix">
+                                <div class="v-svg-icon-holder v-svg-icon-animate">
+                                    <i class="icon-ruler-2"></i>
+                                </div>
+                            </div>
+                            <div class="divider-line"></div>
+                            <h3 class="h5">Extensive Options Providing Flexibility</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spb_icon_box col-sm-12">
+                    <div class="v-icon-box-content-wrap clearfix">
+                        <div class="v-icon-box-inner-wrap clearfix">
+                            <div class="grid-icon-wrap clearfix">
+                                <div class="v-svg-icon-holder v-svg-icon-animate">
+                                    <i class="icon-stationery-1"></i>
+                                </div>
+                            </div>
+                            <div class="divider-line"></div>
+                            <h3 class="h5">Fully Responsive and Device Agnostic</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spb_icon_box col-sm-12">
+                    <div class="v-icon-box-content-wrap clearfix">
+                        <div class="v-icon-box-inner-wrap clearfix">
+                            <div class="grid-icon-wrap clearfix">
+                                <div class="v-svg-icon-holder v-svg-icon-animate">
+                                    <i class="icon-award-3"></i>
+                                </div>
+                            </div>
+                            <div class="divider-line"></div>
+                            <h3 class="h5"> Beautiful and<br> Intelligent Design </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spb_icon_box col-sm-12">
+                    <div class="v-icon-box-content-wrap clearfix">
+                        <div class="v-icon-box-inner-wrap clearfix">
+                            <div class="grid-icon-wrap clearfix">
+                                <div class="v-svg-icon-holder v-svg-icon-animate">
+                                    <i class="icon-bubble-check-1"></i>
+                                </div>
+                            </div>
+                            <div class="divider-line"></div>
+                            <h3 class="h5">Professional Support and Maintenance</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <p class="mb-0 text-primary">MEET TEAM</p>
+            <h2>Our awesome staff</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div data-provide="slider" data-autoplay="true" data-slides-to-show="3" data-slides-to-scroll="2" data-dots="true">
+                    <div class="p-3">
+
+                        <div class="team-member">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 rounded" src="/Content/img/team/t5.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <h3 class="h6 mb-0">Victoria Loda</h3>
+                                    <p class="font-weight-light mb-0">Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-3">
+
+                        <div class="team-member">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 rounded" src="/Content/img/team/t2.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <h3 class="h6 mb-0">John Doe</h3>
+                                    <p class="font-weight-light mb-0">Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="team-member">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 rounded" src="/Content/img/team/t1.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <h3 class="h6 mb-0">Roberto Willis</h3>
+                                    <p class="font-weight-light mb-0">Co-Founder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="team-member">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 rounded" src="/Content/img/team/t2.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <h3 class="h6 mb-0">John Doe</h3>
+                                    <p class="font-weight-light mb-0">Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section text-white ml-0 mr-0 ml-lg-8 mr-lg-8" data-video="mp4:/Content/video/video_space_cover.mp4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="slider-center-focused" data-provide="slider" data-autoplay="true" data-center-mode="true" data-center-padding="30%">
+                    <div>
+                        <div class="clearfix">
+                            <div class="text-center">
+                                <i class="fa fa-quote-left fs-40 text-primary mb-3"></i>
+                            </div>
+                            <div class="w-md-80 text-center mx-md-auto mb-4">
+                                <blockquote class="lead text-white">
+                                    I wish that I could choose more than one reason for my 5-star rating! The Design is great, the features are fantastic and from what I've read in the support forum the customer support is great. This is a great template.
+                                </blockquote>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center w-lg-50 mx-auto">
+                                <div class="avatar">
+                                    <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar1.jpg" alt="Image Description">
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="h6 mb-0">Jessica Jones</h4>
+                                    <small class="text-muted">Developer at Google</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="clearfix">
+                            <div class="text-center">
+                                <i class="fa fa-quote-left fs-40 text-primary mb-3"></i>
+                            </div>
+                            <div class="w-md-80 text-center mx-md-auto mb-4">
+                                <blockquote class="lead text-white">
+                                    This is the most robust template I've ever worked with. So much can be done with this multi-purpose package. Regular updates and enhancements add tremendous value.
+                                </blockquote>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center w-lg-50 mx-auto">
+                                <div class="avatar">
+                                    <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar2.jpg" alt="Image Description">
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="h6 mb-0">Peter Parker</h4>
+                                    <small class="text-muted">Marketing & Sales at Google</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="clearfix">
+                            <div class="text-center">
+                                <i class="fa fa-quote-left fs-40 text-primary mb-3"></i>
+                            </div>
+                            <div class="w-md-80 text-center mx-md-auto mb-4">
+                                <blockquote class="lead text-white">
+                                    I wish that I could choose more than one reason for my 5-star rating! The Design is great, the features are fantastic and from what I've read in the support forum the customer support is great. This is a great template.
+                                </blockquote>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center w-lg-50 mx-auto">
+                                <div class="avatar">
+                                    <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar3.jpg" alt="Image Description">
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="h6 mb-0">Jhon Doe</h4>
+                                    <small class="text-muted">Systems Arc. at Twitter</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="clearfix">
+                            <div class="text-center">
+                                <i class="fa fa-quote-left fs-40 text-primary mb-3"></i>
+                            </div>
+                            <div class="w-md-80 text-center mx-md-auto mb-4">
+                                <blockquote class="lead text-white">
+                                    I like IsraaApp because of all the features and their variations, such as the Portfolio. I can do so many different things with this theme, and I am already using it for my fourth website.
+                                </blockquote>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center w-lg-50 mx-auto">
+                                <div class="avatar">
+                                    <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar2.jpg" alt="Image Description">
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="h6 mb-0">Peter Parker</h4>
+                                    <small class="text-muted">Systems Arc. at Twitter</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <p class="mb-0 text-primary">LATEST NEWS</p>
+            <h2 class="fs-35"> Lates From The Blog</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <div data-provide="slider" data-slides-to-show="3" data-slides-to-scroll="2" data-dots="true">
+                    <div class="p-2">
+                        <div class="card text-white bg-img h-400 bg-img" style="background-image: url(/Content/img/b1.jpg);" data-scrim-bottom="7">
+                            <div class="row h-100 p-5">
+                                <div class="col-12">
+                                    <div class="media align-items-center">
+                                        <img class="avatar avatar-xs mr-3" src="/Content/img/avatar/avatar3.jpg" alt="...">
+                                        <div class="media-body">John Doe</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 align-self-end">
+                                    <small class="d-block mb-2">May 25, 2019</small>
+                                    <h3 class="card-title h5">
+                                        <a class="text-white anim-link-2" href="#">Top 5 Benefits of Live Chat for Your Site </a>
+                                    </h3>
+                                    <a class="m-link-muted fs-14" href="#">Design</a>,
+                                    <a class="m-link-muted fs-14" href="#">Industry</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card text-white bg-img h-400 bg-img" style="background-image: url(/Content/img/b2.jpg);" data-scrim-bottom="6">
+                            <div class="row h-100 p-5">
+                                <div class="col-12">
+                                    <div class="media align-items-center">
+                                        <img class="avatar avatar-xs mr-3" src="/Content/img/avatar/avatar1.jpg" alt="...">
+                                        <div class="media-body">Victor Loda</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 align-self-end">
+                                    <small class="d-block mb-2">May 28, 2019</small>
+                                    <h3 class="card-title h5">
+                                        <a class="text-white anim-link-2" href="#">Designing a Website Ten Years Ago </a>
+                                    </h3>
+                                    <a class="m-link-muted fs-14" href="#">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card text-white bg-img h-400 bg-img" style="background-image: url(/Content/img/b3.jpg);" data-scrim-bottom="6">
+                            <div class="row h-100 p-5">
+                                <div class="col-12">
+                                    <div class="media align-items-center">
+                                        <img class="avatar avatar-xs mr-3" src="/Content/img/avatar/avatar3.jpg" alt="...">
+                                        <div class="media-body">John Doe</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 align-self-end">
+                                    <small class="d-block mb-2">May 29, 2019</small>
+                                    <h3 class="card-title h5">
+                                        <a class="text-white anim-link-2" href="#">Improving Your Mobile Strategy: Best Practices in 2019 </a>
+                                    </h3>
+                                    <a class="m-link-muted fs-14" href="#">Marketing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card text-white bg-img h-400 bg-img" style="background-image: url(/Content/img/srv1.jpg);" data-scrim-bottom="6">
+                            <div class="row h-100 p-5">
+                                <div class="col-12">
+                                    <div class="media align-items-center">
+                                        <img class="avatar avatar-xs mr-3" src="/Content/img/avatar/avatar1.jpg" alt="...">
+                                        <div class="media-body">Victor Loda</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 align-self-end">
+                                    <small class="d-block mb-2">May 25, 2019</small>
+                                    <h3 class="card-title h5 fw-300">
+                                        <a class="text-white anim-link-2" href="#">6 Ways to Boost Online Sales off Season </a>
+                                    </h3>
+                                    <a class="m-link-muted fs-14" href="#">Industry</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center mt-5">
+                <p>Interested in more ? <a class="text-primary border-bottom anim-link" href="#">Keep Reading</a> </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <p class="mb-0 text-primary">HAPPY CUSTOMERS</p>
+            <h2>Our Happy Clients</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-11 text-center">
+                <div data-provide="slider" data-autoplay="true" data-slides-to-show="5" data-slides-to-scroll="2" data-dots="true">
+                    <div class="p-4"><img src="/Content/img/client/facebook.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/microsoft.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/twitter.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/youtube.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/ibm.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/paypal.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

@@ -1,0 +1,293 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Home 12")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<section class="m-gab-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12 text-center z-index-10">
+                <h2 class="fs-65 fw-600">
+                    Love. Inspire. <span class="text-primary">#Design</span>
+                </h2>
+                <p class="lead mt-3 mb-1">
+                    Build your own website with style and ease.
+                </p>
+                <p>Lorem ipsum dolor sit amet, elit, euismod <strong class="text-dark border-bottom">tincidunt</strong> ut laoreet dolore</p>
+                <br />
+                <a href="#" class="btn btn-primary btn-pill pr-5 pl-5 transition-hover mr-3">
+                    <i class="far fa-smile mr-1"></i> Let's Get Started Your Project
+                </a>
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" data-provide="lightbox" class="btn btn-icon btn-sleek-primary rounded-circle transition-hover">
+                    <i class="fas fa-play fs-12"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col text-center mb-6">
+                <span class="label label--sm label--primary mb-2">Our Works</span>
+                <h2 class="fs-40 mb-4 fw-100 text-primary">
+                    <span class="fw-600">Featured</span> Works
+                </h2>
+            </div>
+
+            <div class="col-md-12">
+
+                <div class="cbp"
+                     data-layout-mode="grid"
+                     data-animation-type='slideDelay'
+                     data-caption='overlayBottomAlong'
+                     data-display-type='bottomToTop'
+                     data-display-type-speed="100"
+                     data-gap-horizontal="15"
+                     data-gap-vertical="15"
+                     data-media-queries='[
+                                {"width": 1500, "cols": 4},
+                                {"width": 1100, "cols": 4},
+                                {"width": 800, "cols": 3},
+                                {"width": 480, "cols": 2},
+                                {"width": 300, "cols": 1}
+                              ]'>
+                    <div class="cbp-item identity">
+                        <a href="/Content/img/work/masonary/1.jpg" class="cbp-caption cbp-lightbox" data-title="Easy Note<br>by Cosmin Capitanu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/8.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Coffee Pack</div>
+                                        <div class="cbp-l-caption-desc">Mockup</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design">
+                        <a href="/Content/img/work/masonary/2.jpg" class="cbp-caption cbp-lightbox" data-title="The Gang Blue<br>by Cosmin Capitanu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/2.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Paper Pouch</div>
+                                        <div class="cbp-l-caption-desc">Design</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item graphic identity">
+                        <a href="/Content/img/work/masonary/3.jpg" class="cbp-caption cbp-lightbox" data-title="Tiger<br>by Cosmin Capitanu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/3.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Frame With Wall</div>
+                                        <div class="cbp-l-caption-desc">Artwork</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item identity">
+                        <a href="/Content/img/work/masonary/5.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/5.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Shampoo Bottle</div>
+                                        <div class="cbp-l-caption-desc">Mockup</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design">
+                        <a href="/Content/img/work/masonary/7.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/7.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Tape Mockup</div>
+                                        <div class="cbp-l-caption-desc">Mockup</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item graphic">
+                        <a href="/Content/img/work/masonary/6.jpg" class="cbp-caption cbp-lightbox" data-title="Remind~Me More<br>by Tiberiu Neamu">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="/Content/img/work/masonary/6.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Brandminute Bottle</div>
+                                        <div class="cbp-l-caption-desc">Artwork</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col text-center mt-8">
+                <a href="#getStarted" class="btn btn-outline-primary btn-wide transition-hover">
+                    View More
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3 mnt-6">
+                <div class="card border-0 clearfix px-5 py-6 shadow-7 mb-5 transition-hover gradient-half-primary-v6 text-white">
+                    <button type="button" class="btn btn-icon btn-sleek-light rounded-circle transition-hover mb-3">
+                        <span class="far fa-eye"></span>
+                    </button>
+                    <h3 class="h5 mt-2"> UX Design </h3>
+                    <p> Navigaon avaable boot strap share general markupdse avaableq. </p>
+                    <a href="/page/pricing.html" class="fs-14 common-Link--arrow">
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="card border-0 clearfix px-5 py-6 shadow-7 mb-5 transition-hover">
+                    <button type="button" class="btn btn-icon btn-sleek-primary rounded-circle transition-hover mb-3">
+                        <i class="fas fa-low-vision"></i>
+                    </button>
+                    <h3 class="h5 mt-2"> Branding </h3>
+                    <p> Navigaon avaable boot strap share general markupdse avaableq. </p>
+                    <a href="/page/pricing.html" class="fs-14 common-Link--arrow">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="card border-0 clearfix px-5 py-6 shadow-7 mb-5 transition-hover">
+                    <button type="button" class="btn btn-icon btn-sleek-primary rounded-circle transition-hover mb-3">
+                        <i class="fas fa-vials"></i>
+                    </button>
+                    <h3 class="h5 mt-2"> Testing </h3>
+                    <p> Navigaon avaable boot strap share general markupdse avaableq. </p>
+                    <a href="/page/pricing.html" class="fs-14 common-Link--arrow">
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="card border-0 clearfix px-5 py-6 shadow-7 mb-5 transition-hover gradient-half-primary-v6 text-white">
+                    <button type="button" class="btn btn-icon btn-sleek-light rounded-circle transition-hover mb-3">
+                        <i class="fas fa-window-restore"></i>
+                    </button>
+                    <h3 class="h5 mt-2"> Development </h3>
+                    <p> Navigaon avaable boot strap share general markupdse avaableq. </p>
+                    <a href="/page/pricing.html" class="fs-14 common-Link--arrow">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 m-gab-2-top pl-8">
+                <br />
+                <span class="label label--sm label--primary mb-2">We Design Digital Platforms & Brand</span>
+                <h2 class="fs-40 mb-4 fw-100 text-primary">
+                    <span class="fw-600">Building Brandigs</span> <br>
+                    & Digital experiences
+                </h2>
+                <p class="mb-5">
+                    A small river named Duden flows by their place and supplies it <br>
+                    with the necessary regelialia. It is a para country, in which <br>
+                    roasted parts of sentences fly into your mouth.
+                    Alerts are available for any length of text, as well as an optional dismiss button. For proper
+                </p>
+
+                <a href="#getStarted" class="btn btn-primary btn-wide transition-hover">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container m-gab-2-bottom">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div data-provide="slider" data-slides-to-show="6" data-slides-to-scroll="3" data-autoplay="true" data-dots="false">
+                <div><img class="p-4 opacity-04" src="/Content/img/client/01.png"></div>
+                <div><img class="p-4 opacity-04" src="/Content/img/client/02.png"></div>
+                <div><img class="p-4 opacity-04" src="/Content/img/client/03.png"></div>
+                <div><img class="p-4 opacity-04" src="/Content/img/client/04.png"></div>
+                <div><img class="p-4 opacity-04" src="/Content/img/client/05.png"></div>
+                <div><img class="p-4 opacity-04" src="/Content/img/client/04.png"></div>
+                <div><img class="p-4 opacity-04" src="/Content/img/client/03.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="theme-banner-four" class="gradient-half-primary-v1 mr-8 ml-8">
+    <img src="/Content/img/shape/shape-8.svg" alt="" class="shape-one">
+    <img src="/Content/img/shape/shape-9.svg" alt="" class="shape-two">
+    <img src="/Content/img/shape/shape-11.svg" alt="" class="shape-four z-index-0">
+    <div class="round-shape-one"></div>
+    <div class="round-shape-two"></div>
+    <div class="round-shape-three"></div>
+
+    <div class="container m-gab-3-bottom m-gab-2-top">
+        <div class="row align-items-center pb-6 pt-6">
+            <div class="col-md-8">
+                <div class="clearfix">
+                    <h2 class="text-white fs-40 fw-100 mb-4">
+                        <span class="fw-600">Get in touch</span> and let us know <br />
+                        how we can help you
+                    </h2>
+                    <p class="text-white o-5 mt-3 mb-5">
+                        If you have visited the other pages and you have made your decision to purchase this template,
+                        go on and press the following button and get a license in less than a minute.
+                    </p>
+                    <a class="btn btn-xl btn-round btn-light pr-4 pl-4 mr-2 transition-hover" href="https://wrapbootstrap.com/theme/nettex-business-template-asp.net-mvc5-WB0TR1711">
+                        Purchase for <span class="ml-1 badge badge-number badge-warning pr-2 pl-2 pt-1 pb-1 fw-500">$18</span>
+                    </a>
+                    <small class="m-link-light"><a class="text-white o-8" href="https://wrapbootstrap.com/theme/nettex-business-template-asp.net-mvc5-WB0TR1711?l=m">or purchase an Extended License</a></small>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <figure class="position-absolute right-0 bottom-0 left-0 z-index-2 mb-0">
+        <img class="js-svg-injector" src="/Content/img/svg/divider-bottom.svg" alt="Image Description">
+    </figure>
+</section>

@@ -1,0 +1,384 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Services")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<section class="pt-9 gradient-banner">
+    <div class="shapes-container">
+        <div class="shape aos-init aos-animate" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+        <div class="shape aos-init aos-animate" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+    </div>
+    <div class="container pt-6">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+                <span class="label label--sm label--light mb-2">Mobile app</span>
+                <h1 class="text-white fw-600 fs-47">
+                    Build fast and <br /> launch in style.
+                </h1>
+                <p class="lead text-white-50">
+                    Launch your project in style with this suite of carefully crafted pages and components.
+                </p>
+                <div class="mt-4 mt-lg-5">
+                    <form class="input-round w-75" novalidate="novalidate">
+                        <div class="form-group input-group bg-white">
+                            <input type="text" class="form-control height-inherit pl-4" placeholder="Enter your email">
+                            <div class="input-group-append p-1">
+                                <button class="btn btn-primary" type="button">Join Us</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="/Content/img/mix/mobile.png" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto mt-4">
+                <div class="clearfix bg-white py-5 px-6 shadow rounded mt-9">
+                    <ul class="list-unstyled d-flex flex-wrap justify-content-center mb-0">
+                        <li class="my-3 px-3 mx-lg-4">
+                            <img src="/Content/img/clients/aven.svg" class="opacity-06" />
+                        </li>
+                        <li class="my-3 px-3 mx-lg-4">
+                            <img src="/Content/img/clients/asgardia.svg" class="opacity-06" />
+                        </li>
+                        <li class="my-3 px-3 mx-lg-4">
+                            <img src="/Content/img/clients/kanba.svg" class="opacity-06" />
+                        </li>
+                        <li class="my-3 px-3 mx-lg-4">
+                            <img src="/Content/img/clients/treva.svg" class="opacity-06" />
+                        </li>
+                        <li class="my-3 px-3 mx-lg-4">
+                            <img src="/Content/img/clients/ztos.svg" class="opacity-06" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--6"></div>
+
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="fw-300 text-primary">Our Some <mark data-aos="highlight-text" data-aos-delay="250" class="aos-init aos-animate fw-600"> Services </mark></h2>
+            <p>Our goal is to power innovation, wherever that may be.</p>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6 col-lg-6 pr-1">
+                <div class="media bg-light px-5 py-6 rounded">
+                    <div class="mr-5">
+                        <img class="icon bg-primary" src="/Content/img/icons/general/settings-1.svg" alt="Icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-primary">ASP.NET MVC Version Ready</h3>
+                        <p class="mb-4"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. <a href="#">Morbi</a> mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#" class="btn btn-primary btn-xs fs-12 btn-pill transition-hover px-3 common-Link--arrow">Explore now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 pl-1">
+                <div class="media bg-light px-5 py-6 rounded">
+                    <div class="mr-5">
+                        <img class="icon bg-primary" src="/Content/img/icons/tools/pantone.svg" alt="pantone icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-primary">Special Projects</h3>
+                        <p class="mb-4"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. <a href="#">Morbi</a> mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#" class="btn btn-primary btn-xs fs-12 btn-pill transition-hover px-3 common-Link--arrow">Explore now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-6 pr-1">
+                <div class="media bg-light px-5 py-6 rounded">
+                    <div class="mr-5">
+                        <img class="icon bg-primary" src="/Content/img/icons/shopping/box-2.svg" alt="Icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-primary">3 Demo In One Package</h3>
+                        <p class="mb-4"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. <a href="#">Morbi</a> mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#" class="btn btn-primary btn-xs fs-12 btn-pill transition-hover px-3 common-Link--arrow">Explore now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 pl-1">
+                <div class="media bg-light px-5 py-6 rounded">
+                    <div class="mr-5">
+                        <img class="icon bg-primary" src="/Content/img/icons/home/bulb-1.svg" alt="Icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-primary">24/7 Customer Support</h3>
+                        <p class="mb-4"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. <a href="#">Morbi</a> mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#" class="btn btn-primary btn-xs fs-12 btn-pill transition-hover px-3 common-Link--arrow">Explore now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="fw-300 text-primary">Trust is a foundation <mark data-aos="highlight-text" data-aos-delay="250" class="aos-init aos-animate fw-600"> for great </mark>  </h2>
+            <p>
+                Want to learn more about developing native apps for Android and iOS? Check out the other
+                services that we have in our offer.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 border-right">
+                <div class="clearfix pl-8 pr-4 mb-8 mb-lg-0">
+                    <img src="/Content/img/client/microsoft.png" width="130" class="mb-2" />
+                    <div class="mb-4 testimonial-quote">
+                        <blockquote class="fs-16">
+                            This is the most robust template I've ever worked with. So much can be done with this multi-purpose package.
+                            Regular updates and enhancements add tremendous value.
+                        </blockquote>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="avatar">
+                            <img class="img-fluid rounded-circle" src="/Content/img/avatar/a3.jpg" alt="Image Description">
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="h6 mb-0">Akbar Widodo</h4>
+                            <small class="text-muted">Product Manager at Microsoft</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pl-6 border-right">
+                <div class="clearfix pl-8 pr-4 mb-8 mb-lg-0">
+                    <img src="/Content/img/client/twitter.png" width="130" class="mb-2" />
+                    <div class="mb-4 testimonial-quote">
+                        <blockquote class="fs-16">
+                            I wish that I could choose more than one reason for my 5-star rating! The Design is great,
+                            the features are fantastic and from what I've read in the support forum the customer support is great.
+                            This is a great template.
+                        </blockquote>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="avatar">
+                            <img class="img-fluid rounded-circle" src="/Content/img/avatar/a4.jpg" alt="Image Description">
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="h6 mb-0">Somchai Chomsom</h4>
+                            <small class="text-muted">Designer at Twitter</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pl-6">
+                <div class="clearfix pl-8 pr-4">
+                    <img src="/Content/img/client/facebook.png" width="130" class="mb-2" />
+                    <div class="mb-4 testimonial-quote">
+                        <blockquote class="fs-16">
+                            I like IsraaApp because of all the features and their variations, such as the Portfolio.
+                            I can do so many different things with this theme, and I am already using it for my fourth website.
+                        </blockquote>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="avatar">
+                            <img class="img-fluid rounded-circle" src="/Content/img/avatar/a2.jpg" alt="Image Description">
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="h6 mb-0">Lars Jolink</h4>
+                            <small class="text-muted">Developer at Facebook</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-9 pb-6 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-3 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="122" data-duration="10"></h2>
+                    <p class="mb-0">Top rated<br>agency companies</p>
+                </div>
+                <!-- End Stats -->
+            </div>
+            <div class="col-sm-3 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-suffix="M"></h2>
+                    <p class="mb-0">Average<br>registration rate</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-prefix="$"></h2>
+                    <p class="mb-0">Historical earnings<br>per click</p>
+                </div>
+                <!-- End Stats -->
+            </div>
+
+            <div class="col-sm-3 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-suffix="M"></h2>
+                    <p class="mb-0">Average<br>registration rate</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Stats -->
+    </div>
+</section>
+
+<section class="vertical-center" data-parallax="/Content/img/hero/h15.jpg" data-overlay="5" style="min-height:500px;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <!-- Title -->
+                <div class="mb-7 mnt-6">
+                    <span class="label label--sm label--light mb-2">Mobile app</span>
+                    <h2 class="text-white"> Do the Most Meaningful Work <br /> of Your Career</h2>
+                    <p class="text-white-50">
+                        People are at the heart of every connection we build. We design products and <br />
+                        deliver services that bring the world closer together — one connection at a time.
+                    </p>
+                </div>
+                <!-- End Title -->
+                <!-- Button -->
+                <button type="button" class="btn btn-xs pr-3 btn-dark text-left mb-2 mb-md-0 mr-md-2">
+                    <span class="media align-items-center">
+                        <span class="fab fa-apple fa-3x mr-3"></span>
+                        <span class="d-block">
+                            <span class="d-block">Download on the</span>
+                            <strong class="d-block font-size-14">App Store</strong>
+                        </span>
+                    </span>
+                </button>
+                <!-- End Button -->
+                <!-- Button -->
+                <button type="button" class="btn btn-xs pr-3 btn-dark text-left mb-2 mb-md-0">
+                    <span class="media align-items-center">
+                        <span class="fab fa-google-play fa-3x mr-3"></span>
+                        <span class="d-block">
+                            <span class="d-block">Get it on</span>
+                            <strong class="d-block font-size-14">Google Play</strong>
+                        </span>
+                    </span>
+                </button>
+                <!-- End Button -->
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="m-video-link pt-9 ml-9">
+                    <div class="m-video-link--icon"><i class="fa fa-play"></i></div>
+                    <div class="m-video-link--text text-white">
+                        <div>Watch</div>
+                        <div class="font-weight-bold">VIDEO</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <figure class="position-absolute right-0 bottom-0 left-0 z-index-2 mb-0">
+        <img class="js-svg-injector" src="/Content/img/svg/divider-bottom.svg" alt="Image Description">
+    </figure>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="fw-300 text-primary">Looking for other <mark data-aos="highlight-text" data-aos-delay="250" class="aos-init aos-animate fw-600"> services? </mark> </h2>
+            <p>
+                Want to learn more about developing native apps for Android and iOS? Check out the other
+                services that we have in our offer.
+            </p>
+        </div>
+
+        <div class="row justify-content-lg-center">
+            <div class="col-md-6 col-lg-5 mb-7 border-right">
+                <div class="media pr-lg-5">
+                    <div class="mr-5">
+                        <i class="fab fa-apple text-primary fs-50"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-primary">iOS development</h3>
+                        <p class="mb-4"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. <a href="#">Morbi</a> mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#" class="btn btn-primary btn-pill btn-sm transition-hover pr-3 pl-4">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pl-lg-5">
+                    <div class="mr-5">
+                        <i class="fab fa-android text-primary fs-50"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-primary">Android development <span class="badge badge-success font-weight-normal">Unique</span></h3>
+                        <p class="mb-4"> Sed quis dolor in lacus <span class="m-link-muted">ullamcorper</span> euismod nec et nibh. Morbi mollis, euismod enim vitae rutrum euismod porttitor. </p>
+                        <a href="#" class="btn btn-primary btn-pill btn-sm transition-hover pr-3 pl-4">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="custom-section-1 m-gab-2-top m-gab-3-bottom">
+    <div class="container">
+        <div class="row justify-content-md-center text-center">
+            <div class="col-md-6 ">
+                <!--<span class="label label--sm label--primary mb-2">Subscribe</span>-->
+                <h2 class="fw-300 text-primary">Need a <mark data-aos="highlight-text" data-aos-delay="250" class="aos-init aos-animate fw-600"> successful project? </mark> </h2>
+
+                <p class="lead mb-5">Subscribe our newsletter asn stay updated.</p>
+
+                <form class="input-round" novalidate="novalidate">
+                    <div class="form-group input-group bg-white shadow-4">
+                        <input type="text" class="form-control height-inherit pl-4" placeholder="Enter your email">
+                        <div class="input-group-append p-2">
+                            <button class="btn btn-warning" type="button">Join IsraaApp</button>
+                        </div>
+                    </div>
+                </form>
+
+                <p class="small">Interested in more ? <a class="m-link-muted" href="#">Keep Reading</a> </p>
+            </div>
+        </div>
+    </div>
+</section>

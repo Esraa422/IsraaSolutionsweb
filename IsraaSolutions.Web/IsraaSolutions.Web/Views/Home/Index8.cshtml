@@ -1,0 +1,448 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Home 8")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<section data-scrim-top="9" class="vertical-center position-relative" style="background-image:url(/Content/img/hero/h15.jpg); background-size:cover; min-height:600px">
+    <div class="container z-index-10">
+        <div class="row align-items-center mnb-10">
+            <div class="col-md-8">
+                <div class="clearfix">
+                    <h2 class="text-white font-weight-bold fs-50">
+                        The future of <br /> innovation is now
+                    </h2>
+                    <p class="text-white mt-3 mb-4">
+                        IsraaApp is a pixel perfect theme, that is tailor made for startups  and <br /> businesses. Build your website swiftly and easily.
+                    </p>
+                    <a href="#getStarted" class="btn btn-outline-light">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                    <div class="m-video-link--text text-white">
+                        <div>Watch</div>
+                        <div class="font-weight-bold">INTRO VIDEO</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="custom-section-3">
+        <img src="/Content/img/sectionbg.png" alt="nettex">
+    </div>
+</section>
+
+<section class="section">
+    <div class="w-md-80 w-lg-80 text-center mx-md-auto mb-9">
+        <h2 class="fw-400 text-primary">Navigation available in bootstrap share <br> markup and styles.</h2>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="clearfix">
+                            <img src="/Content/img/FinancialSupport.png" />
+                            <h2 class="h5 mt-4">Financial Support</h2>
+                            <p> Provide business financial support </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="clearfix">
+                            <img src="/Content/img/BusinessAdvisor.png" />
+                            <h2 class="h5 mt-4">Business Advisor</h2>
+                            <p> Provide business financial support </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="clearfix">
+                            <img src="/Content/img/LoanPrograms.png" />
+                            <h2 class="h5 mt-4">Loan Programs</h2>
+                            <p> Provide business financial support </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="text-center">
+                    <h4 class="fw-400  text-primary">
+                        IsraaApp <span class="fw-600">Customers</span>
+                    </h4>
+
+                    <div class="mb-4 mb-lg-0" data-provide="slider" data-slides-to-show="4" data-slides-to-scroll="2" data-dots="true">
+                        <div class="p-3 opacity-04"><img src="/Content/img/client/03.png"></div>
+                        <div class="p-3 opacity-04"><img src="/Content/img/client/02.png"></div>
+                        <div class="p-3 opacity-04"><img src="/Content/img/client/01.png"></div>
+                        <div class="p-3 opacity-04"><img src="/Content/img/client/04.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="w-lg-75 p-lg-8 mx-lg-auto">
+                    <div class="bg-white shadow-2 rounded p-2">
+                        <div class="h-400 bg-img" data-overlay="3" style="background-image: url(/Content/img/business3.png);">
+                            <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link video-player-centered" data-provide="lightbox">
+                                <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                            </a>
+                            <div class="oval-divider--bottom oval-divider--5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <div class="row">
+                    <div class="col-lg-6 mb-8 mb-lg-0">
+                        <h2 class="mb-4 mb-lg-6 text-primary"> About Us </h2>
+                        <p class="mb-5">
+                            An enim nullam tempor sapien gravida donec enim ipsum blandit  porta justo
+                            integer odio velna vitae auctor integer congue magna at pretium purus.
+                            nullam tempor sapien gravida donec enim ipsum blandit nullam tempor sapien gravida donec enim ipsum blandit
+                        </p>
+                        <blockquote class="testimonial-quote ml-8 mt-4">
+                            <p class="mb-0 text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </blockquote>
+
+                        <div class="d-flex align-items-center mb-6">
+                            <div class="avatar-xl mr-4">
+                                <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar2.jpg" alt="Image Description">
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="fs-18 mb-0">Peter Parker</h4>
+                                <small class="text-muted">Developer at Google</small>
+                            </div>
+                            <!--<div class="avatar">
+                                <img class="img-fluid rounded-circle" src="img/avatar.png" alt="Image Description">
+                            </div>-->
+                        </div>
+
+                        <a class="btn btn-primary btn-pill transition-hover pr-6 pl-6" href="../page/contact-us.html" target="_self">
+                            Learn More
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h2 class="mb-4 mb-lg-6 text-primary">
+                            FAQ
+                        </h2>
+
+                        <div class="accordion accordion-v3" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="fa fa-question text-primary fs-14 mr-2"></i> How to contact with Customer Service?
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                        terry richardson ad squid. 3 wolf moon officia aute, non cupidatat s
+                                        kateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Brunch 3 wolf moon tempor.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="fa fa-question text-primary fs-14 mr-2"></i> How to update system information?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee n
+                                        ulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                        labore wes anderson cred nesciunt sapiente ea proident. Ad vegan except
+                                        eur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                                        denim aesthetic synth nesciunt you probably haven't heard of them
+                                        accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fa fa-question text-primary fs-14 mr-2"></i> Website taking time, how to improve?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                        terry richardson ad squid. 3 wolf moon officia aute, non cupidatat s
+                                        kateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                        Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid singl
+                                        e-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                        helvetica, craft beer labore wes anderson cred nesciunt sapiente e
+                                        a proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                        probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header p-3" role="tab" id="headingThree6qqqqq">
+                                    <h2 class="mb-0 h6 text-center">
+                                        <a class="text-center text-primary common-Link--arrow text-uppercase fs-13" href="../page/faq.html">
+                                            See more FAQs
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pb-0 mr-8 ml-8" data-parallax="/Content/img/hero/h13.jpg" data-overlay="4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <div class="mnb-8 z-index-10 shadow-8" data-provide="slider" data-slides-to-show="1" data-slides-to-scroll="1" data-dots="true">
+                    <div>
+                        <div class="card border-0 p-7">
+                            <blockquote>
+                                I wish that I could choose more than one reason for my 5-star rating! The Design is great, the features are fantastic and from what I've read in the support forum the customer support is great. This is a great template.
+                            </blockquote>
+                            <div class="d-flex align-items-center border-top-muted pt-4">
+                                <div class="avatar">
+                                    <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar2.jpg" alt="Image Description">
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="fs-18 mb-0">Jhon Doe</h4>
+                                    <small class="o-7">Sales Manager at Twitter</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card border-0 p-7 bg-light bg-primary">
+                            <blockquote class="text-white">
+                                I like IsraaApp because of all the features and their variations, such as the Portfolio. I can do so many different things with this theme, and I am already using it for my fourth website.
+                            </blockquote>
+                            <div class="d-flex align-items-center border-top-muted pt-4">
+                                <div class="avatar">
+                                    <img class="img-fluid rounded-circle" src="/Content/img/avatar/avatar3.jpg" alt="Image Description">
+                                </div>
+                                <div class="ml-3">
+                                    <h4 class="fs-18 mb-0 text-white">Ariol Doe</h4>
+                                    <small class="text-white o-7">Lead Developer at Facebook</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row justify-content-center text-white">
+                    <div class="col-sm-4 col-lg-4 mb-7 mb-sm-0">
+                        <div class="media">
+                            <div class="mr-3">
+                                <i class="icon-user-search-1 fs-44 mt-3"></i>
+                            </div>
+                            <div class="media-body">
+                                <h2 class="fs-40 mb-0" data-provide="countup" data-from="0" data-to="50" data-prefix="$" data-suffix="M"></h2>
+                                <p class="h5 mb-0">Total Invest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 mb-7 mb-sm-0">
+                        <div class="media">
+                            <div class="mr-3">
+                                <i class="icon-cloud-download fs-47 mt-3"></i>
+                            </div>
+                            <div class="media-body">
+                                <h2 class="fs-40 mb-0" data-provide="countup" data-from="1500.65" data-to="160.59" data-decimals="2"></h2>
+                                <p class="h5 mb-0">Downloads</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 mb-7 mb-sm-0">
+                        <div class="media">
+                            <div class="mr-3">
+                                <i class="icon-user-heart-2 fs-44 mt-3"></i>
+                            </div>
+                            <div class="media-body">
+                                <h2 class="fs-40 mb-0" data-provide="countup" data-from="0" data-to="1000" data-suffix="M"></h2>
+                                <p class="h5 mb-0">Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--5"></div>
+</section>
+
+<section class="section m-gab-4-top">
+    <div class="container mb-9">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto">
+            <h2 class="text-primary fw-100">Find Our <span class="fw-600">Location</span></h2>
+            <p>Our goal is to power innovation, wherever that may be.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center shadow-8 p-8 border">
+            <div class="col-md-5">
+                <p class="text-uppercase small o-7 font-weight-bold">Head Office</p>
+                <h5>Esenyurt/Istanbul</h5>
+                <br>
+                <p>Ucevler mah, Urfalilar Cd. No:71/C<br>34513 Esenyurt/Istanbul</p>
+                <p>Phone: +90 212 590 5680<br>Email: support@domain.com</p>
+                <br>
+                <h6>Follow Us</h6>
+                <div class="social social-inverse">
+                    <a class="social-twitter" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="social-facebook" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="social-instagram" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="social-dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="h-300 rounded" data-provide="map" data-lat="41.0187429" data-lng="28.6390396" data-marker-lat="41.0187429" data-marker-lng="28.6390396" data-info="Üçevler mah, Urfalılar Cd. No:71/C, 34513 Esenyurt/İstanbul" data-style="light"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pt-12">
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="mr-4 mt-2">
+                        <i class="icon-address-1 fs-44 p-3 btn-pill btn-sleek-primary"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mb-3">Address</h3>
+                        <p class="fs-15">
+                            1355 Market St, Suite 900 <br>
+                            San Francisco, CA 94103<br>
+                            P: (123) 456-7890
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="mr-4 mt-2">
+                        <i class="icon-phone-vibration fs-44 p-3 btn-pill btn-sleek-primary"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mb-3">Phone</h3>
+                        <ul class="list-unstyled fs-15">
+                            <li>
+                                <span class="d-inline-block text-color-dark w-80px fw-600">Office <span class="custom-text-color-1 float-right">:</span></span>
+                                <span class="value">
+                                    <a href="tel:+18001234567" class="underline">+45 3212 5680</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="d-inline-block text-color-dark w-80px fw-600">Sale <span class="custom-text-color-1 float-right">:</span></span>
+                                <span class="value">
+                                    <a href="tel:+18001234567" class="underline">+45 3212 5681</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="d-inline-block text-color-dark w-80px fw-600">Admin <span class="custom-text-color-1 float-right">:</span></span>
+                                <span class="value">
+                                    <a href="tel:+18001234567" class="underline">+45 3212 5682</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="mr-4 mt-2">
+                        <i class="icon-clock-2 fs-44 p-3 btn-pill btn-sleek-primary"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mb-3">Office Hour</h3>
+                        <ul class="list-unstyled fs-15">
+                            <li><strong>Monday-Friday: 	</strong>9am to 5pm	 </li>
+                            <li><strong>Saturday: 	</strong>10am to 2pm</li>
+                            <li><strong>Sunday: 	</strong>Closed		 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="theme-banner-four" class="gradient-half-primary-v1 mr-8 ml-8">
+    <img src="/Content/img/shape/shape-8.svg" alt="" class="shape-one">
+    <img src="/Content/img/shape/shape-9.svg" alt="" class="shape-two">
+    <img src="/Content/img/shape/shape-11.svg" alt="" class="shape-four z-index-0">
+    <div class="round-shape-one"></div>
+    <div class="round-shape-two"></div>
+    <div class="round-shape-three"></div>
+
+    <div class="container m-gab-4-bottom m-gab-3-top">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <div class="clearfix">
+                    <h2 class="text-white fw-100 h1">
+                        Get It <span class="fw-600">Now</span>
+                    </h2>
+                    <p class="text-white o-5 mt-3 mb-5">
+                        If you have visited the other pages and you have made your decision to purchase this template,
+                        go on and press the following button and get a license in less than a minute.
+                    </p>
+                    <a class="btn btn-xl btn-round btn-light mr-2" href="https://wrapbootstrap.com/theme/nettex-business-template-asp.net-mvc5-WB0TR1711">Purchase for <span class="pl-2">$18</span></a>
+                    <small class="m-link-light"><a class="text-white o-8" href="https://wrapbootstrap.com/theme/nettex-business-template-asp.net-mvc5-WB0TR1711?l=m">or purchase an Extended License</a></small>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <figure class="position-absolute right-0 bottom-0 left-0 z-index-2 mb-0">
+        <img class="js-svg-injector" src="/Content/img/svg/divider-bottom.svg" alt="Image Description">
+    </figure>
+</section>

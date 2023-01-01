@@ -1,0 +1,338 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Pricing")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<section id="theme-banner-four" class="section  m-gab-2-top m-gab-0-bottom gradient-half-primary-body-v1">
+    <img src="/Content/img/shape/shape-8.svg" alt="" class="shape-one">
+    <img src="/Content/img/shape/shape-9.svg" alt="" class="shape-two">
+    <img src="/Content/img/shape/shape-10.svg" alt="" class="shape-three">
+    <img src="/Content/img/shape/shape-11.svg" alt="" class="shape-four">
+    <div class="round-shape-one"></div>
+    <div class="round-shape-two"></div>
+    <div class="round-shape-three"></div>
+    <div class="round-shape-four"></div>
+
+    <div class="container z-index-10">
+        <div class="w-md-80 w-lg-80 text-center text-white mx-md-auto mb-7">
+            <i class="clearfix icon-money fs-60 text-white"></i>
+            <h2 class="fw-100"> Check Our <mark data-aos="highlight-text" data-aos-delay="250" class="aos-init aos-animate fw-600"> Pricing Plan </mark> </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" style="margin-bottom:-200px;">
+                <div class="pricing pricing--pema">
+                    <div class="pricing-item border-bottom border-top border-left">
+                        <div class="pr-6 pl-6 pb-4 pt-5 bg-light-1 border-bottom">
+                            <h3 class="pricing-title">Monthly Package</h3>
+                            <div class="pricing-price text-success">
+                                <span class="pricing-currency">$</span>
+                                <span class="pricing-main" data-bind-radio="pricing" data-monthly="19" data-yearly="99">19</span>
+                                <span class="pricing-period text-success">/ Month</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <p class="pricing-sentence">For large companies</p>
+                            <ul class="pricing-feature-list">
+                                <li class="m-list--link">- Unlimited presentations</li>
+                                <li class="m-list--link">- 5 hours of <span class="m-link-muted">free support</span> </li>
+                                <li class="m-list--link">- Unlimited support</li>
+                                <li class="m-list--link">- Unlimited <span class="m-link-muted">campaigns</span></li>
+                            </ul>
+                            <button class="btn btn-outline-primary btn-block btn-sm border-w-2">Request Package</button>
+                        </div>
+                    </div>
+                    <div class="pricing-item pricing-item--featured border border-primary">
+                        <div class="pr-6 pl-6 pb-4 pt-5 bg-light-1 border-bottom">
+                            <h3 class="pricing-title">Weekly Package</h3>
+                            <div class="pricing-price text-primary">
+                                <span class="pricing-currency">$</span>
+                                <span class="pricing-main" data-bind-radio="pricing" data-monthly="29" data-yearly="39">29</span>
+                                <span class="pricing-period text-primary">/ Week</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <p class="pricing-sentence">For medium sized teams</p>
+                            <ul class="pricing-feature-list">
+                                <li class="m-list--link">- 50 presentations/month</li>
+                                <li class="m-list--link">
+                                    - 5 hours of <span class="m-link-muted">free support</span>
+                                    <i class="far fa-question-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="To assist you in the ordering process, we've compiled a list of purchase and licensing related FAQs."></i>
+                                </li>
+                                <li class="m-list--link">
+                                    - 10 campaigns/month <i class="far fa-question-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="To assist you in the ordering process, we've compiled a list of purchase and licensing related FAQs."></i>
+                                </li>
+                                <li class="m-list--link">
+                                    - Mirror website
+                                    <span class="m-link-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="To assist you in the ordering process, we've compiled a list of purchase and licensing related FAQs.">
+                                        adjustmant
+                                    </span>
+                                </li>
+                            </ul>
+                            <button class="btn btn-outline-primary btn-block btn-sm border-w-2">Request Package</button>
+                        </div>
+                    </div>
+                    <div class="pricing-item border-bottom border-top border-right">
+                        <div class="pr-6 pl-6 pb-4 pt-5 bg-light-1 border-bottom">
+                            <h3 class="pricing-title">Monthly Package</h3>
+                            <div class="pricing-price text-warning">
+                                <span class="pricing-currency">$</span>
+                                <span class="pricing-main" data-bind-radio="pricing" data-monthly="79" data-yearly="99">79</span>
+                                <span class="pricing-period text-warning">/ Month</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <p class="pricing-sentence">For large companies</p>
+                            <ul class="pricing-feature-list">
+                                <li class="m-list--link">- Unlimited presentations</li>
+                                <li class="m-list--link">- 5 hours of <span class="m-link-muted">free support</span> </li>
+                                <li class="m-list--link">- Unlimited support</li>
+                                <li class="m-list--link">- Unlimited <span class="m-link-muted">campaigns</span></li>
+                            </ul>
+                            <button class="btn btn-outline-primary btn-block btn-sm border-w-2">Request Package</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="oval-divider--bottom oval-divider--9"></div>
+</section>
+
+<section class="section m-gab-4-top m-gab-0-bottom">
+    <div class="container">
+        <div class="row justify-content-center mb-9 mt-5">
+            <div class="col-md-12 text-center">
+                <p class="small">
+                    We have different kind of plan for our customer,  If you dont <br />
+                    find your plan <a href="../page/contact-us.html" class="common-Link--arrow">contact us </a>
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-9">
+            <div class="col-lg-8">
+                <br />
+                <div class="media">
+                    <img alt="" class="rounded-circle mr-5 mt-2" src="/Content/img/avatar/avatar5.jpg" style="width: 80px;">
+                    <div class="media-body">
+                        <blockquote class="blockquote">
+                            <p class="lead">
+                                "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                                Cras purus odio vestibulum in vulputate at tempus viverra."
+                            </p>
+                            <footer class="blockquote-footer text-dark">John Doe in <cite title="Source Title">Web Designer at IsraaApp</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-11">
+                <div data-provide="slider" data-slides-to-show="6" data-slides-to-scroll="2" data-dots="true">
+                    <div class="p-4"><img src="/Content/img/client/facebook.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/twitter.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/youtube.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/samsung.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/paypal.png"></div>
+                    <div class="p-4"><img src="/Content/img/client/microsoft.png"></div>
+                </div>
+
+                <hr class="mt-8" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section m-gab-2-bottom">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <i class="clearfix icon-question-mark fs-60 text-primary"></i>
+            <h2 class="text-primary fw-100">What's <span class="fw-600">Include</span> </h2>
+            <p>
+                Get <a href="#">100+ features</a>  out of the box with IsraaApp’s integrated per-transaction pricing
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="clearfix">
+                    <i class="clearfix icon-shopping-bag-3 fs-50 text-primary"></i>
+                    <h3 class="h5 mb-3 mt-3">Provide financial advice by our service</h3>
+                    <ul class="check-list">
+                        <li> Embeddable checkout </li>
+                        <li> Custom UI toolkit </li>
+                        <li> Simplified PCI compliance </li>
+                        <li> Invoice support </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="clearfix">
+                    <i class="icon-dollar-currency-2 fs-50 text-primary"></i>
+                    <h3 class="h5 mb-3 mt-3">Complate solution for global organizations</h3>
+                    <ul class="check-list">
+                        <li> Embeddable checkout </li>
+                        <li> Custom UI toolkit </li>
+                        <li> Simplified PCI compliance </li>
+                        <li> Invoice support </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="clearfix">
+                    <i class="icon-layers fs-50 text-primary"></i>
+                    <h3 class="h5 mb-3 mt-3">Business monitoring and lead generation</h3>
+                    <ul class="check-list">
+                        <li> Embeddable checkout </li>
+                        <li> Custom UI toolkit </li>
+                        <li> Simplified PCI compliance </li>
+                        <li> Invoice support </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section m-gab-1-bottom">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <i class="clearfix icon-question-mark fs-60 text-primary"></i>
+            <h2 class="text-primary">FAQ</h2>
+            <p>
+                Want to learn more about developing native apps for Android and iOS? Check out the other
+                services that we have in our offer.
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                <div class="accordion accordion-v3" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fa fa-question text-primary fs-14 mr-2"></i> How to contact with Customer Service?
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                                laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa fa-question text-primary fs-14 mr-2"></i> App installation failed, how to update system information?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fa fa-question text-primary fs-14 mr-2"></i> Website reponse taking time, how to improve?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header p-3" role="tab" id="headingThree6qqqqq">
+                            <h2 class="mb-0 h6 text-center">
+                                <a class="text-center text-primary common-Link--arrow text-uppercase fs-13" href="../page/faq.html">
+                                    See more FAQs
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-lg-center">
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media transition-hover rounded bg-primary text-white p-7 py-8">
+                    <div class="media-body pb-10">
+                        <div class="mb-5">
+                            <i class="fab fa-apple fs-50"></i>
+                        </div>
+                        <h3 class="h5 mt-0 mb-2">iOS development</h3>
+                        <p class="mb-4"> Sed quis dolor in lacus ullamcorper euismod ullamcorper euismod nec et nibh. <a href="#">Morbi</a> mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#" class="btn btn-white btn-pill btn-sm transition-hover pr-3 pl-4">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+                <div class="oval-divider--bottom oval-divider--9"></div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media border hover-shadow-1 bg-light p-7 py-8">
+                    <div class="media-body">
+                        <div class="mb-5">
+                            <i class="fab fa-android text-primary fs-50"></i>
+                        </div>
+                        <h3 class="h5 mt-0 mb-2">Android development <span class="badge badge-success font-weight-normal">Unique</span></h3>
+                        <p class="mb-4"> Sed quis dolor in lacus <span class="m-link-muted">ullamcorper</span> euismod nec et nibh. Morbi mollis, euismod enim vitae rutrum euismod porttitor. </p>
+                        <a href="#" class="btn btn-primary btn-pill btn-sm transition-hover pr-3 pl-4">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-6 pb-12 border-top bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h2 class="h4 fw-400 primary-color mb-0">Get the latest from IsraaApp</h2>
+                <p class="h5 fw-300 mb-0">Receive news, announcements, and reports.</p>
+            </div>
+            <div class="col-sm-5">
+                <form class="input-round" novalidate="novalidate">
+                    <div class="form-group input-group bg-white shadow-1">
+                        <input type="text" class="form-control height-inherit pl-4" placeholder="Enter your email">
+                        <div class="input-group-append p-2">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--8"></div>
+</section>

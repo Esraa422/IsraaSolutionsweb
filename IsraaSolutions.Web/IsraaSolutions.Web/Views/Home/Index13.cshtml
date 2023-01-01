@@ -1,0 +1,328 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Home Event")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<section class="pt-4 gradient-half-primary-v6">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 z-index-10 text-white mb-4">
+                <h2 class="fs-60 fw-600 mnt-4">
+                    Summit 2022
+                </h2>
+                <p class="lead mb-1">
+                    Registration is now open for Summit 2022!
+                </p>
+                <br />
+                <a href="#" class="btn btn-light btn-pill o-9 pr-5 pl-5 transition-hover mr-3 common-Link--arrow">
+                    Learn more
+                </a>
+                <div class="d-inline-block">
+                    <div class="media align-items-center text-left">
+                        <div class="mr-2">
+                            <a class="btn btn-pill btn-sleek-light" href="https://www.youtube.com/watch?v=bmixiVwtDso" data-provide="lightbox">
+                                <i class="fa fa-play fs-12" style="margin-left: .15rem;"></i>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a class="mb-0 text-white o-9" href="https://www.youtube.com/watch?v=bmixiVwtDso" data-provide="lightbox">Watch video</a>
+                        </div>
+                    </div>
+                </div>
+                <br /><br /><br />
+            </div>
+            <div class="col-md-6">
+                <img src="/Content/img/svg/hero-illo.svg" />
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--1"></div>
+</section>
+
+<section class="m-gab-2">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="media align-items-center">
+                    <div class="mr-5">
+                        <img class="" src="/Content/img/avatar/a7.jpg" width="150" alt="Icon" />
+                    </div>
+                    <div class="media-body">
+                        <p class="mb-1 fw-600 small text-light">CALL FOR SPEAKERS NOW OPEN</p>
+                        <h3 class="h4 text-primary mb-0 fw-100">Last Event: <span class="fw-600">Summit 2022</span> </h3>
+                        <p class="text-light mb-3 small">March 30 - April 5, Las Vegas </p>
+                        <p class="mb-3">
+                            We’re looking for inspiring voices, ideas, and expertise from industry leaders and <br />
+                            storytellers like yourself to share their story on the Summit stage.
+                        </p>
+                        <a href="#" class="anim-link-2 anim-link-2-primary  common-Link--arrow common-BodyText">Learn more  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-9">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div data-provide="slider" data-slides-to-show="5" data-slides-to-scroll="3" data-autoplay="true" data-dots="false">
+                    <div><img class="p-4" src="/Content/img/client/facebook.png"></div>
+                    <div><img class="p-4" src="/Content/img/client/microsoft.png"></div>
+                    <div><img class="p-4" src="/Content/img/client/youtube.png"></div>
+                    <div><img class="p-4" src="/Content/img/client/twitter.png"></div>
+                    <div><img class="p-4" src="/Content/img/client/paypal.png"></div>
+                    <div><img class="p-4" src="/Content/img/client/youtube.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section bg-light pb-9">
+    <div class="container">
+        <div class="text-center mx-md-auto mb-9">
+            <h2 class="text-primary">Special Events</h2>
+            <p class="lead-1">
+                Meet industry leaders and explore the most innovative ways to work at our <br />
+                flagship events. You won't want to miss them.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="clearfix">
+                    <img src="/Content/img/mix/SpecialEvents2.png" />
+                    <div class="py-6 px-4">
+                        <h2 class="h5 text-primary">IsraaApp Summit 2022</h2>
+                        <p> Share your knowledge at our flagship event. Summit 2022 Call for Speakers is now open! </p>
+                        <a href="#" class="common-Link--arrow">Learn more </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="clearfix">
+                    <img src="/Content/img/mix/SpecialEvents.png" />
+                    <div class="py-6 px-4">
+                        <h2 class="h5 text-primary">IsraaApp Open 2021</h2>
+                        <p> Explore news ways to work Open and the future of cloud during this 3-city tour. </p>
+                        <a href="#" class="common-Link--arrow">Learn more </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="clearfix">
+                    <img src="/Content/img/mix/SpecialEvents2.png" />
+                    <div class="py-6 px-4">
+                        <h2 class="h5 text-primary">IsraaApp Camp</h2>
+                        <p> Replay our inspiring keynote or catch up on your favorite sessions from this year. </p>
+                        <a href="#" class="common-Link--arrow">Watch now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-primary">Upcoming Events</h2>
+            <p class="lead-1">If you are looking to work with us do not hesitate to contact us via the contact page.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="cbp-l-center">
+                    <div id="js-filters-agency" class="cbp-l-filters-text">
+                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                            All <div class="cbp-filter-counter"></div>
+                        </div> |
+                        <div data-filter=".web-design" class="cbp-filter-item">
+                            Web Design <div class="cbp-filter-counter"></div>
+                        </div> |
+                        <div data-filter=".graphic" class="cbp-filter-item">
+                            Graphic <div class="cbp-filter-counter"></div>
+                        </div> |
+                        <div data-filter=".logos" class="cbp-filter-item">
+                            Logo <div class="cbp-filter-counter"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cbp cbp-l-grid-agency mb-8"
+                     data-filters="#js-filters-agency"
+                     data-layout-mode="grid"
+                     data-animation-type='slideLeft'
+                     data-caption='zoom'
+                     data-display-type='fadeIn'
+                     data-display-type-speed="100"
+                     data-gap-horizontal="40"
+                     data-gap-vertical="40"
+                     data-plugin-sort-element="#js-sort-agency"
+                     data-media-queries='[
+                                    {"width": 1500, "cols": 2},
+                                    {"width": 1100, "cols": 2},
+                                    {"width": 800, "cols": 2},
+                                    {"width": 480, "cols": 1},
+                                    {"width": 300, "cols": 1}
+                                  ]'>
+                    <div class="cbp-item graphic px-6 py-6 shadow-sm rounded event-top-border-warning">
+                        <a href="#" target="_blank">
+                            <h3 class="h5 mb-5 text-dark">Improve UI and UX Design in Angular Reporting Solutions</h3>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">When</h5>
+                                    <p class="fs-14"> July 1 - October 27 </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">Where</h5>
+                                    <p class="fs-14">Lisbon, PT</p>
+                                </div>
+                            </div>
+                            <p class="fs-15">
+                                Includes: How to use Dataset Joins to combine related datasets from different data sources,
+                                how to add subre ports to your Page Reports, how to export to...
+                            </p>
+                            <a href="#" class="common-Link--arrow btn btn-xs btn-pill btn-warning fs-12">Register </a>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design logos px-6 py-6 shadow-sm btn-pill rounded event-top-border-warning">
+                        <a href="#" target="_blank">
+                            <h3 class="h5 mb-5 text-dark">How to Programmatically Generate Excel Files with Documents for Excel</h3>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">When</h5>
+                                    <p class="fs-14"> July 18 - December 24 </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">Where</h5>
+                                    <p class="fs-14">Tokyo, JP</p>
+                                </div>
+                            </div>
+                            <p class="fs-15">
+                                Includes: How to use Dataset Joins to combine related datasets from different data sources,
+                                how to add subre ports to yours, how to...
+                            </p>
+                            <a href="#" class="common-Link--arrow btn btn-xs btn-pill btn-warning fs-12">Register </a>
+                        </a>
+                    </div>
+                    <div class="cbp-item graphic px-6 py-6 shadow-sm rounded event-top-border-info">
+                        <a href="#" target="_blank">
+                            <h3 class="h5 mb-5 text-dark">How to Use New Features in ASP.NET MVC with react.js</h3>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">When</h5>
+                                    <p class="fs-14"> July 1 - December 27 </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">Where</h5>
+                                    <p class="fs-14">Multiple cities worldwide</p>
+                                </div>
+                            </div>
+                            <p class="fs-15">
+                                Includes: How to use Dataset Joins to combine related datasets from different data sources,
+                                how to add subre ports to your Page Reports, how to export to...
+                            </p>
+                            <a href="#" class="common-Link--arrow btn btn-xs btn-pill btn-info fs-12">Register </a>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design logos px-6 py-6 shadow-sm btn-pill rounded event-top-border-info">
+                        <a href="#" target="_blank">
+                            <h3 class="h5 mb-5 text-dark">Scale mission-critical IsraaApp applications with Data Center</h3>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">When</h5>
+                                    <p class="fs-14"> July 18 - December 24 </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">Where</h5>
+                                    <p class="fs-14">Tokyo, JP</p>
+                                </div>
+                            </div>
+                            <p class="fs-15">
+                                Includes: How to use Dataset Joins to combine related datasets from different data sources,
+                                how to add subre ports...
+                            </p>
+                            <a href="#" class="common-Link--arrow btn btn-xs btn-pill btn-info fs-12">Register </a>
+                        </a>
+                    </div>
+                    <div class="cbp-item web-design graphic px-6 py-6 shadow-sm rounded event-top-border-primary">
+                        <a href="#" target="_blank">
+                            <h3 class="h5 mb-5 text-dark">Get Started with JavaScript Frameworks (and select one for your team)</h3>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">When</h5>
+                                    <p class="fs-14"> July 1 - December 27 </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">Where</h5>
+                                    <p class="fs-14">Orlando, FL</p>
+                                </div>
+                            </div>
+                            <p class="fs-15">
+                                Includes: How to use Dataset Joins to combine related datasets from different data sources,
+                                how to add subre ports to your Page Reports, how to export to...
+                            </p>
+                            <a href="#" class="common-Link--arrow btn btn-pill btn-xs btn-primary fs-12">Register </a>
+                        </a>
+                    </div>
+                    <div class="cbp-item graphic logos px-6 py-6 shadow-sm rounded event-top-border-primary">
+                        <a href="#" target="_blank">
+                            <h3 class="h5 mb-5 text-dark">How to Use New Features in NettexMaster</h3>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">When</h5>
+                                    <p class="fs-14"> July 5 - December 15 </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-dark mb-0 h6">Where</h5>
+                                    <p class="fs-14">Los Vegas</p>
+                                </div>
+                            </div>
+                            <p class="fs-15">
+                                Includes: How to use Dataset Joins to combine related datasets from different data sources,
+                                how to add subre ports to your Page Reports, how to export to...
+                            </p>
+                            <a href="#" class="common-Link--arrow btn btn-pill btn-xs btn-primary fs-12">Register </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="custom-section-6 bg-primary">
+    <div class="container m-gab-3-bottom m-gab-2-top">
+        <div class="row align-items-center pt-6">
+            <div class="col-md-12">
+                <div class="clearfix text-center mt-8">
+                    <h2 class="fw-100 text-white">
+                        Become an <span class="fw-600">insider</span>
+                    </h2>
+                    <p class="text-white-50 mb-4">
+                        Be the first to know about all IsraaApp events. Sign up for special<br />
+                        announcements, deals on Summit passes, and more-right to your inbox.
+                    </p>
+                    <form class="input-round w-50 mx-auto" novalidate="novalidate">
+                        <div class="form-group input-group bg-white">
+                            <input type="text" class="form-control height-inherit pl-4" placeholder="Enter your email address">
+                            <div class="input-group-append p-1">
+                                <button class="btn btn-warning" type="button">I'm in!</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-white-50 small mnb-3">Do not worry, we will not spam. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oval-divider--top oval-divider--8"></div>
+</section>
+

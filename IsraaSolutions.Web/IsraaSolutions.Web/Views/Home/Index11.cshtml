@@ -1,0 +1,535 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Home 11")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.TextColor(BootstrapColor.Light);
+        settings.Transparency(HeaderTransparency.Transparent);
+    })
+    .Footer(footer =>
+    {
+        footer.ViewName("FooterDark");
+    })
+)
+
+<section data-scrim-top="8" class="m-gab-5 bg-img" style="background-image:url(/Content/img/hero/h26.jpg);">
+    <div class="container">
+        <div class="row align-items-center mnb-4">
+            <div class="col-md-8">
+                <div class="clearfix">
+                    <h2 class="text-white font-weight-bold fs-50">
+                        Let's <br />
+                        Work Together
+                    </h2>
+                    <p class="text-white mt-3 mb-4">
+                        Provide contextual feedback messages for typical user actions with the handful <br /> of available and flexible alert messages.
+                    </p>
+                    <a href="#getStarted" class="btn btn-outline-light">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                    <div class="m-video-link--text text-white">
+                        <div>Watch</div>
+                        <div class="font-weight-bold">INTRO VIDEO</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--8"></div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="mb-4 mt-5">
+                    Build your own website with <br />
+                    style and ease.
+                </h2>
+
+                <p class="mb-7">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+                    iriure dolor in hendrerit in vulputate velit esse molestie
+                    consequat, vel illum dolore eu feugiat nulla facilisis at
+                    vero suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                </p>
+
+                <button type="button" class="btn btn-primary transition-hover">Read More <i class="fa fa-angle-double-right ml-2 mr-0"></i></button>
+            </div>
+            <div class="col-lg-6">
+                <img src="/Content/img/mix/pen.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section bg-dark">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-white">Some features</h2>
+            <p>Join The Ultimate And Awesome Experience</p>
+        </div>
+
+        <div class="row justify-content-lg-center">
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pr-lg-5">
+                    <div class="mr-4">
+                        <i class="fa fa-cogs text-primary fs-45"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-white">Unlimited Possibilites</h3>
+                        <p class="mb-1"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pl-lg-5">
+                    <div class="mr-4">
+                        <i class="fa fa-compress text-primary fs-45"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-white">Full Responsive</h3>
+                        <p class="mb-1"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum porttitor. </p>
+                        <a href="#">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pr-lg-5">
+                    <div class="mr-4">
+                        <i class="fa fa-cogs text-primary fs-45"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-white">Unlimited Possibilites</h3>
+                        <p class="mb-1"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum porttitor.. </p>
+                        <a href="#">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pl-lg-5">
+                    <div class="mr-4">
+                        <i class="fa fa-compress text-primary fs-45"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2 text-white">Full Responsive</h3>
+                        <p class="mb-1"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum porttitor. </p>
+                        <a href="#">Explore now <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <a class="btn btn-sleek-primary pl-5 pr-5 transition-hover" href="#" target="_self">
+                    <i class="icon-hand-like-2 mr-2"></i> Other Features
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" data-parallax="/Content/img/hero/h18.jpg" data-overlay="5">
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-sm-12">
+                <h3 class="v-smash-text-large text-white pb-3">Simple & Creative</h3>
+
+                <p class="v-smash-text-large-3x text-white pb-1">PARALLAX BACKGROUNDS</p>
+                <div class="horizontal-break"></div>
+
+                <a class="btn btn-sleek-white transition-hover pl-4 pr-4" href="#" target="_self"><i class="fa fa-fire mr-2"></i> Purchase Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="122" data-duration="10"></h2>
+                    <p class="mb-0">Top rated<br>agency companies</p>
+                </div>
+                <!-- End Stats -->
+            </div>
+
+            <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-prefix="$"></h2>
+                    <p class="mb-0">Historical earnings<br>per click</p>
+                </div>
+                <!-- End Stats -->
+            </div>
+
+            <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-suffix="M"></h2>
+                    <p class="mb-0">Average<br>registration rate</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Stats -->
+    </div>
+</section>
+
+<section class="section bg-dark">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-white">What Customers Says About Us</h2>
+            <p>Join The Ultimate And Awesome Experience</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12 testimonial-five">
+
+                <div data-provide="slider" data-slides-to-show="3" data-slides-to-scroll="2" data-dots="true">
+                    <div class="p-4">
+                        <div class="testimonial-five testimonial-light">
+
+                            <blockquote class="o-9">
+                                <h4 class="fs-18 fw-6">Super support!</h4>
+                                <p class="lh-26">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad elitad Cras.
+                                </p>
+                            </blockquote>
+
+                            <div class="testimonial-author pl-15 clearfix">
+                                <div class="testimonial-author-thumbnail">
+                                    <img class="img-responsive img-circle" src="/Content/img/avatar/avatar1.jpg" alt="JOHN SMITH">
+                                </div>
+                                <p class="fs-16 text-white">
+                                    <strong class="text-white">William Richardson</strong><span class="text-white o-7 fs-13">Web Developer</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <div class="testimonial-five testimonial-light">
+
+                            <blockquote class="o-9">
+                                <h4 class="fs-18 fw-6">Super support!</h4>
+                                <p class="lh-26">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad elitad Cras non placerat mi.
+                                </p>
+                            </blockquote>
+
+                            <div class="testimonial-author pl-15 clearfix">
+                                <div class="testimonial-author-thumbnail">
+                                    <img class="img-responsive img-circle" src="/Content/img/avatar/avatar2.jpg" alt="JOHN SMITH">
+                                </div>
+                                <p class="fs-16 text-white">
+                                    <strong class="text-white">Michael James</strong><span class="text-white o-7 fs-13"> Manager at Youtube</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <div class="testimonial-five testimonial-light">
+
+                            <blockquote class="o-9">
+                                <h4 class="fs-18 fw-6">Awesome Design.</h4>
+                                <p class="lh-26">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad elitad Cras non placerat mi.
+                                </p>
+                            </blockquote>
+
+                            <div class="testimonial-author pl-15 clearfix">
+                                <div class="testimonial-author-thumbnail">
+                                    <img class="img-responsive img-circle" src="/Content/img/avatar/avatar3.jpg" alt="JOHN SMITH">
+                                </div>
+                                <p class="fs-16 text-white">
+                                    <strong class="text-white">Michael Feldstein</strong><span class="text-white o-7 fs-13">CEO &amp; Founder</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <div class="testimonial-five">
+
+                            <blockquote class="o-9">
+                                <h4 class="fs-18 fw-6">Awesome Design.</h4>
+                                <p class="lh-26">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad elitad Cras.
+                                </p>
+                            </blockquote>
+
+                            <div class="testimonial-author pl-15 clearfix">
+                                <div class="testimonial-author-thumbnail">
+                                    <img class="img-responsive img-circle" src="/Content/img/avatar/avatar5.jpg" alt="JOHN SMITH">
+                                </div>
+                                <p class="fs-16 text-white">
+                                    <strong class="text-white">JOHN SMITH</strong><span class="text-white o-7 fs-13">CEO &amp; Founder</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="m-gab-2 border-top border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="/Content/img/client/facebook.png" class="pr-2 pl-2 img-fluid" />
+            </div>
+            <div class="col-md-2">
+                <img src="/Content/img/client/microsoft.png" class="pr-2 pl-2 img-fluid" />
+            </div>
+            <div class="col-md-2">
+                <img src="/Content/img/client/youtube.png" class="pr-2 pl-2 img-fluid" />
+            </div>
+            <div class="col-md-2">
+                <img src="/Content/img/client/twitter.png" class="pr-2 pl-2 img-fluid" />
+            </div>
+            <div class="col-md-2">
+                <img src="/Content/img/client/paypal.png" class="pr-2 pl-2 img-fluid" />
+            </div>
+            <div class="col-md-2">
+                <img src="/Content/img/client/youtube.png" class="pr-2 pl-2 img-fluid" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="h2 mb-4">
+                    Build your own website with  <br />
+                    style and ease.
+                </h1>
+
+                <p class="pull-bottom v-lead">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+                    iriure dolor in hendrerit in vulputate velit esse molestie
+                    consequat, vel illum dolore eu feugiat nulla facilisis at
+                    vero suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                </p>
+
+                <button type="button" class="btn btn-primary transition-hover">Read More <i class="fa fa-align-right ml-3"></i></button>
+            </div>
+            <div class="col-lg-6">
+                <div class="progress-bars mt-9">
+                    <div class="progress-label">
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress-label">
+                        <span>Design</span>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <div class="progress-label">
+                        <span>Photoshop</span>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <div class="progress-label">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3 mb-6 mb-lg-0">
+
+                        <div class="team-member p-2">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 img-circle" src="/Content/img/team/Team-1.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <p class="font-weight-light mb-0">Co-Founder</p>
+                                    <h3 class="h5 fs-18">Roberto Willis</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet conse elit, sed diam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 mb-6 mb-lg-0">
+
+                        <div class="team-member p-2">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 img-circle" src="/Content/img/team/Team-2.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <p class="font-weight-light mb-0">Web Developer</p>
+                                    <h3 class="h5 fs-18">Victoria Loda</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet conse elit, sed diam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+
+                        <div class="team-member p-2">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 img-circle" src="/Content/img/team/Team-3.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <p class="font-weight-light mb-0">Designer</p>
+                                    <h3 class="h5 fs-18">John Doe</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet conse elit, sed diam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+
+                        <div class="team-member p-2">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100 img-circle" src="/Content/img/team/Team-4.jpg" alt="Roberto Willis">
+                                <div class="member-social">
+                                    <div class="member-social-inner">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="#" class="tooltips" data-placement="top" rel="tooltip" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <div class="card-body text-center p-3">
+                                    <p class="font-weight-light mb-0">Web Developer</p>
+                                    <h3 class="h5 fs-18">Daniel McJames</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet conse elit, sed diam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-6 pb-12 border-top bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 text-center text-lg-left">
+                <h2 class="h4 primary-color mb-0">Redy to get started?</h2>
+                <h3 class="h5 mb-0">Create a free account or get in touch.</h3>
+            </div>
+            <div class="col-lg-4 text-center text-lg-left">
+                <div class="mt-2 mt-lg-0">
+                    <a class="btn btn-primary transition-hover mt-3 mb-0" target="_blank" href="#"><span>Get Started</span></a>
+                    <a class="btn btn-secondary transition-hover mt-3 mb-0" href="#" target="_self"><span class="text">Get in Touch</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--8"></div>
+</section>
+
+

@@ -1,0 +1,59 @@
+﻿@model CategoryDetailModel
+ 
+
+@(Html.IsraaApp().Page()
+        .Title(Model.Name)
+        .Footer()
+        .Header(header => { 
+            header.ShowTopbar(true);
+            header.Nav(DemoMenu.GetDemoMenu()); 
+        }) 
+)
+ 
+
+@Html.IsraaApp().Section().ContentTemplate(@<text>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h5 class="mnt-8 ml-3 mb-6">
+                    Posts listed for <span class="m-link">@Model.Name</span> category.
+                </h5>
+
+                @(Html.IsraaApp().BlogPosts(BlogPostViewName.ListBottomText)
+                                .Pageable(5)
+                                .FilterByCategoryId(Model.Id))
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="mb-9">
+                    @Html.IsraaApp().Widget("SidebarSubscribeForm", new SubscriberModel())
+                </div>
+
+                <div class="mb-9">
+                    @Html.IsraaApp().Widget("SidebarFollowLinks")
+                </div>
+
+                <div class="mb-9">
+                    @Html.IsraaApp().Widget("SidebarCategories")
+                </div>
+
+                <div class="mb-9">
+                    @Html.IsraaApp().Widget("SidebarPopularPosts")
+                </div>
+
+                <div class="mb-9">
+                    @Html.IsraaApp().Widget("SidebarLatestPosts")
+                </div>
+
+                <div class="mb-9">
+                    @Html.IsraaApp().Widget("SidebarLatestComments")
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</text>)
+ 

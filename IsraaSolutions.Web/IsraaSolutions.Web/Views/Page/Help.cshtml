@@ -1,0 +1,423 @@
+﻿
+@(Html.IsraaApp().Page()
+    .Title("Help")
+    .Footer()
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.Transparency(HeaderTransparency.Transparent);
+        settings.TextColor(BootstrapColor.Light);
+    }))
+
+<section data-overlay="3" class="section m-gab-4 bg-primary">
+    <div class="container z-index-10">
+        <div class="w-md-80 w-lg-80 text-center text-white mx-md-auto mb-5 mt-2">
+            <h2> Help Center</h2>
+        </div>
+
+        <div class="row mnb-3">
+            <div class="col-md-8 col-xl-7 mx-auto input-round">
+                <div class="input-group bg-white">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text o-10"><i class="fa fa-search"></i></div>
+                    </div>
+                    <input class="form-control" type="text" data-shuffle="search" placeholder="search">
+                    <div class="input-group-append p-1">
+                        <button class="btn btn-primary btn-sm" type="button">Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center mt-5">
+                <p class="small text-white o-7">
+                    <i class="fa fa-info mr-1 small"></i> We have different kind of plan for our customer,  If you dont <br />
+                    find your plan <a href="../page/contact-us.html" class="anim-link-2 anim-link-2-white">contact us <span class="icon-arrow-right ml-1"></span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="custom-section-3">
+        <img src="/Content/img/sectionbg.png" alt="nettex">
+    </div>
+</section>
+
+<section class="section m-gab-2-bottom">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-primary">Discover more</h2>
+            <p>
+                Get <a href="#" class="anim-link-2 anim-link-2-primary">100+ features</a>  out of the box with IsraaApp’s pricing
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="clearfix text-center border rounded hover-shadow-5 transition-hover py-6 p-5">
+                    <div class="d-inline-block position-relative mb-2">
+                        <img src="/Content/img/svg/live-chat.svg" class="mb-5" style="width:125px" />
+                    </div>
+                    <h3 class="h5"> Live Chat </h3>
+                    <p>
+                        Navigation available share general markup and download.
+                    </p>
+                    <a href="#" class="anim-link-2 anim-link-2-primary fs-14">
+                        Learn More <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="clearfix text-center border rounded hover-shadow-5 transition-hover py-6 p-5">
+                    <div class="d-inline-block position-relative mb-2">
+                        <img src="/Content/img/svg/undraw-wall.svg" class="mb-5" style="width:125px" />
+                    </div>
+                    <h3 class="h5"> Documentation </h3>
+                    <p>
+                        Bootstrap share general markup share and download.
+                    </p>
+                    <a href="#" class="anim-link-2 anim-link-2-primary fs-14">
+                        Learn More <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="clearfix text-center border rounded hover-shadow-5 transition-hover py-6 p-5">
+                    <div class="d-inline-block position-relative mb-2">
+                        <img src="/Content/img/svg/tutorials.svg" class="mb-5" style="width:160px" />
+                    </div>
+                    <h3 class="h5"> Tutorials </h3>
+                    <p>
+                        Bootstrap share general markup share and download.
+                    </p>
+                    <a href="#" class="anim-link-2 anim-link-2-primary fs-14">
+                        Learn More <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section m-gab-2-bottom">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-primary">Getting started</h2>
+            <p>
+                Get <a href="#" class="anim-link-2 anim-link-2-primary">100+ features</a>  out of the box with IsraaApp’s pricing
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="h5 mb-4">Getting started</h4>
+                <ul class="list-unstyled">
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            How do I purchase an item?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            How to Download your items
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            View and Download invoices
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            Do I need a Regular License or an Extended License?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            How Does The IsraaApp Market Affiliate Program Work?
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 class="h5 mb-4">Popular articles</h4>
+                <ul class="list-unstyled">
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            Where Is My Purchase Code?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            What is Item Support?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            Theme is missing the style.css stylesheet error
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            How to contact an author
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            Where Is My Purchase Code?
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 class="h5 mb-4">Licenses</h4>
+                <ul class="list-unstyled">
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            I’m making a logo. What license do I need?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            I’m making a video - which license do I need?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            Do I need a Regular License or an Extended License?
+                        </a>
+                    </li>
+                    <li class="pr-2 py-3 border-bottom d-flex">
+                        <img class="icon icon-sm bg-primary mr-2" src="/Content/img/icons/code/question-circle.svg" alt="question-circle icon" data-inject-svg />
+                        <a class="anim-link-2 anim-link-2-primary fs-15 text-dark" href="#">
+                            I want to make multiple end products with the same item - how many licenses do I need to buy?
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section m-gab-2-bottom">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-primary">Watch videos</h2>
+            <p>
+                Get <a href="#">100+ features</a>  out of the box with IsraaApp’s pricing
+            </p>
+        </div>
+
+        <div class="row gap-y">
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/wp.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fab fa-wordpress lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">WordPress</h5>
+                        <small class="opacity-70">139 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/php.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fa fa-code lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">PHP</h5>
+                        <small class="opacity-70">218 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/data-entry.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fa fa-database lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">Data Entry</h5>
+                        <small class="opacity-70">57 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/android.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fab fa-android lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">Android</h5>
+                        <small class="opacity-70">94 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/marketing.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fas fa-chart-line lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">Marketing</h5>
+                        <small class="opacity-70">27 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/translate.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fa fa-globe lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">Translation</h5>
+                        <small class="opacity-70">43 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/design.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fa fa-paint-brush lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">Design</h5>
+                        <small class="opacity-70">139 Videos</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a class="card text-white text-center bg-img py-6 shadow-11 hover-shadow-9 transition-hover" href="#" style="background-image: url(/Content/img/thumb/10.jpg);" data-overlay="7">
+                    <div class="position-relative">
+                        <p><i class="fa fa-folder-open lead-5 opacity-70"></i></p>
+                        <h5 class="mb-0">See All</h5>
+                        <small class="opacity-70">700+ Videos</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-primary">FAQ</h2>
+            <p>
+                Want to learn more about developing native apps for Android and iOS? Check out the other
+                services that we have in our offer.
+            </p>
+        </div>
+
+        <div class="row justify-content-lg-center">
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pr-lg-5">
+                    <div class="mr-4">
+                        <img class="icon bg-primary" src="/Content/img/icons/home/bulb-1.svg" alt="Icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2">How do I purchase an item?</h3>
+                        <p class="mb-2"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum mollis euismod porttitor.. </p>
+                        <a href="#" class="anim-link-2 anim-link-2-primary">Explore now <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pl-lg-5">
+                    <div class="mr-4">
+                        <img class="icon bg-primary" src="/Content/img/icons/files/cloud-download.svg" alt="cloud-download icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2">How to download your items?</h3>
+                        <p class="mb-2"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum mollis euismod porttitor. </p>
+                        <a href="#" class="anim-link-2 anim-link-2-primary">Explore now <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pr-lg-5">
+                    <div class="mr-4">
+                        <img class="icon bg-primary" src="/Content/img/icons/code/code.svg" alt="Icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2">How to create ASP.NET project?</h3>
+                        <p class="mb-2"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum mollis euismod porttitor.. </p>
+                        <a href="#" class="anim-link-2 anim-link-2-primary">Explore now <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-7">
+                <div class="media pl-lg-5">
+                    <div class="mr-4">
+                        <img class="icon bg-primary" src="/Content/img/icons/files/locked-folder.svg" alt="locked-folder icon" data-inject-svg />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 mt-0 mb-2">Where Is My Purchase Code?</h3>
+                        <p class="mb-2"> Sed quis dolor in lacus ullamcorper euismod nec et nibh. Morbi mollis, enim vitae rutrum mollis euismod porttitor. </p>
+                        <a href="#" class="anim-link-2 anim-link-2-primary">Explore now <img class="icon icon-xs bg-primary" src="/Content/img/icons/navigation/right-2.svg" alt="Icon" data-inject-svg /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <h2 class="text-primary">You still have a question?</h2>
+            <p>
+                If you can not find answer to your question in our FAQ, you can <br />
+                always contact us. We will answer to you shortly!
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-5 text-center">
+                <div class="card p-6 px-5 bg-white shadow-11 hover-shadow-9 transition-hover border">
+                    <div class="d-inline-block position-relative">
+                        <img src="/Content/img/svg/headset.svg" class="mb-5" style="width:65px" />
+                    </div>
+                    <h2 class="h5">Call Us</h2>
+                    <p>
+                        <a class="anim-link-2 anim-link-2-primary" href="mailto:business@yourdomain.com" target="_blank" data-ga="Contact - business@recombee.com">business@yourdomain.com</a>
+                        <br>+900 648 899 075
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5 text-center">
+                <div class="card p-6 px-5 bg-light shadow-11 hover-shadow-9 transition-hover border">
+                    <div class="d-inline-block position-relative">
+                        <img src="/Content/img/svg/customer-service.svg" class="mb-5" style="width:65px" />
+                    </div>
+                    <h2 class="h5">Customer Support</h2>
+                    <p>
+                        <a class="anim-link-2 anim-link-2-primary" class="link-white" href="mailto:support@yourdomain.com" target="_blank" data-ga="Contact - support@recombee.com">support@yourdomain.com</a>
+                        <br>+910 604 999 078
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-6 pb-12 border-top bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h2 class="h3 primary-color mb-0">Get the latest from IsraaApp</h2>
+                <p class="lead h5 mb-0">Receive news, announcements, and reports.</p>
+            </div>
+            <div class="col-sm-5">
+                <form class="input-round" novalidate="novalidate">
+                    <div class="form-group input-group bg-white shadow-1">
+                        <input type="text" class="form-control height-inherit pl-4" placeholder="Enter your email">
+                        <div class="input-group-append p-2">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--8"></div>
+</section>
+

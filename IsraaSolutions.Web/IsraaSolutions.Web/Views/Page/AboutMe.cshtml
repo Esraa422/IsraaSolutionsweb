@@ -1,0 +1,226 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("About Me")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+<section data-overlay="3" class="vertical-center bg-img" style="background-image:url(/Content/img/hero/h22.jpg);min-height:550px">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-8 mnt-9">
+                <div class="clearfix text-center text-lg-left mb-6 mb-lg-0">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb bg-transparent pr-0 pl-0 mb-0 justify-content-center justify-content-lg-start">
+                            <li class="breadcrumb-item"><a class="text-white-50" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white-50" href="#">Page</a></li>
+                            <li class="breadcrumb-item active text-white-50 o-4" aria-current="page">About Me</li>
+                        </ol>
+                    </nav>
+                    <h3 class="text-white mb-5">
+                        I’m <strong class="m-link-light">John Doe</strong>.
+                        An American passionate Digital Art Designer living in New York, currently working as Designer at <span class="m-link-light">IsraaApp</span>.
+                    </h3>
+                    <div class="social social-bg-dark social-lg d-inline mr-4">
+                        <a class="social-facebook" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="social-twitter" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-gplus" href="#"><i class="fab fa-google-plus"></i></a>
+                    </div>
+                    <a href="#" class="btn btn-sleek-white btn-sm transition-hover">Get In Tuch</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+                <a href="https://www.youtube.com/watch?v=bmixiVwtDso" class="m-video-link" data-provide="lightbox">
+                    <div class="m-video-link--icon"><i class="fas fa-play"></i></div>
+                    <div class="m-video-link--text text-white">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--6"></div>
+</section>
+
+<section class="section pt-9 pb-6">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="122" data-duration="10"></h2>
+                    <p class="mb-0">Top rated<br>agency companies</p>
+                </div>
+                <!-- End Stats -->
+            </div>
+
+            <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-prefix="$"></h2>
+                    <p class="mb-0">Historical earnings<br>per click</p>
+                </div>
+                <!-- End Stats -->
+            </div>
+
+            <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
+                <!-- Stats -->
+                <div class="text-center">
+                    <h2 class="display-4 text-primary" data-provide="countup" data-from="0" data-to="541" data-suffix="M"></h2>
+                    <p class="mb-0">Average<br>registration rate</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Stats -->
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-9 mb-lg-0">
+                <div class="clearfix">
+                    <span class="label label--sm label--success mb-2">Litle Bit</span>
+                    <h2 class="text-primary">Short Bio </h2>
+                    <p>Our goal is to power innovation, wherever that may be.</p>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor
+                    imperdiet vehicula. Proin egestas diam ac mauris molestie hendrerit. Quisque nec nisi tortor.
+                    Etiam <strong>suscipit</strong> at mauris sit amet magna hend mollis. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor
+                    Lorem <a href="#" class="v-link">ipsum dolor</a> sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor
+                    imperdiet vehicula. Proin egestas diam ac mauris molestie hendrerit. Quisque nec nisi tortor.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="clearfix">
+                    <span class="label label--sm label--success mb-2">Experience</span>
+                    <h2 class="text-primary mb-4">Experience </h2>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-6">
+
+    <div class="container">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+            <span class="label label--sm label--success mb-2">Projects</span>
+            <h2 class="text-primary">My <span class="font-weight-semi-bold">Projects</span></h2>
+            <p>Our goal is to power innovation, wherever that may be.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12 p-0">
+
+                <div class="cbp"
+                     data-layout-mode="grid"
+                     data-animation-type='slideLeft'
+                     data-caption='zoom'
+                     data-display-type='fadeIn'
+                     data-display-type-speed="100"
+                     data-gap-horizontal='0'
+                     data-gap-vertical='30'
+                     data-media-queries='[
+                                {"width": 1500, "cols": 4},
+                                {"width": 1100, "cols": 4},
+                                {"width": 800, "cols": 3},
+                                {"width": 480, "cols": 2},
+                                {"width": 300, "cols": 1}
+                              ]'>
+                    <div class="cbp-item mockup">
+                        <a href="#" target="_blank">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="/Content/img/work/p1.jpg" data-cbp-src="/Content/img/work/p1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-agency-title">Coffee Pack</div>
+                            <div class="cbp-l-grid-agency-desc">Mockup</div>
+                        </a>
+                    </div>
+                    <div class="cbp-item concept">
+                        <a href="#" target="_blank">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="/Content/img/work/p4.jpg" data-cbp-src="/Content/img/work/p4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-agency-title">Tea Concept</div>
+                            <div class="cbp-l-grid-agency-desc">Concept</div>
+                        </a>
+                    </div>
+                    <div class="cbp-item design">
+                        <a href="#" target="_blank">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="/Content/img/work/p2.jpg" data-cbp-src="/Content/img/work/p2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-agency-title">Bottle Design</div>
+                            <div class="cbp-l-grid-agency-desc">Design</div>
+                        </a>
+                    </div>
+                    <div class="cbp-item design">
+                        <a href="#" target="_blank">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="/Content/img/work/p3.jpg" data-cbp-src="/Content/img/work/p3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-agency-title">Bright Side</div>
+                            <div class="cbp-l-grid-agency-desc">Design</div>
+                        </a>
+                    </div>
+                    <!--<div class="oval-divider--top oval-divider--5"></div>
+                    <div class="oval-divider--bottom oval-divider--5"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-6 pb-12 border-top bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 text-center text-lg-left">
+                <h2 class="h4 primary-color mb-0">Redy to get started?</h2>
+                <h3 class="h5 mb-0">Create a free account or get in touch.</h3>
+            </div>
+            <div class="col-lg-4 text-center text-lg-left">
+                <div class="mt-2 mt-lg-0">
+                    <a class="btn btn-primary transition-hover mt-3 mb-0" target="_blank" href="#"><span>Get Started</span></a>
+                    <a class="btn btn-secondary transition-hover mt-3 mb-0" href="#" target="_self"><span class="text">Get in Touch</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--8"></div>
+</section>

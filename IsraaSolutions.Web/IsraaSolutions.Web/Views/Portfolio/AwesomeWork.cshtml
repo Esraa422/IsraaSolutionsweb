@@ -1,0 +1,51 @@
+﻿
+@Html.IsraaApp().Page().BgColor(BootstrapColor.Light).Title("Awesome Work")
+ 
+
+@Html.IsraaApp().Header(settings => {
+    settings.Nav = DemoMenu.GetDemoMenu();
+    settings.ShowTopbar = false;
+    settings.StickyType = HeaderStickyType.Shrink;
+    settings.Transparency = HeaderTransparency.Transparent;
+})
+
+<section class="section m-gab-4 custom-section-2">
+    <div class="container z-index-10">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-7 text-center">
+                <div class="clearfix">
+
+                    @Html.IsraaApp().Breadcrumb().Transparent().Align(BreadcrumbAlign.Center)
+
+                    <div class="div">
+                        <h2 class="h3 mb-0">Need a successful project?</h2>
+                        <p class="lead-1 mb-4">Subscribe our newsletter as stay updated.</p>
+
+                        @Html.IsraaApp().Widget("NewsletterSubscribeForm", new SubscriberModel())
+
+                        <p class="small">Interested in more ? <a class="m-link-muted" href="#">Keep Reading</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+@Html.IsraaApp().Section().ContentTemplate(@<text>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                @Html.IsraaApp().Portfolio(PortfolioViewName.AwesomeWork).ShowCategoryFilter()
+
+            </div>
+        </div>
+    </div>
+
+</text>)
+
+
+@Html.IsraaApp().Footer()

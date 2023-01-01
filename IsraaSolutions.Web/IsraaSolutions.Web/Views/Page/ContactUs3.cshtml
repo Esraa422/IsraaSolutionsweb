@@ -1,0 +1,191 @@
+﻿@(Html.IsraaApp().Page()
+    .Title("Contact Us 3")
+    .Header(settings => {
+        settings.Nav(DemoMenu.GetDemoMenu());
+        settings.ShowTopbar(true);
+        settings.BorderBottom(HeaderBorderBottom.Light);
+    })
+    .Footer(footer => {
+        footer.ViewName("Footer");
+    })
+)
+
+
+<section data-overlay="5" class="bg-img" style="background-image:url(/Content/img/hero/h15.jpg);padding-top:10rem;padding-bottom:10rem">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12 text-center">
+                <h1 class="fs-60 fw-600 text-white">We’re Here to Help</h1>
+                <p class="mb-6 lead text-white">
+                    We'd love to talk about how we can help you.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="oval-divider--bottom oval-divider--6"></div>
+</section>
+
+
+
+<section class="section border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="text-center border-right">
+                    <img class="icon icon-lg bg-primary mb-3" src="/Content/img/icons/communication/adress-book-2.svg" alt="Icon" data-inject-svg />
+                    <h2 class="h5"><mark data-aos="highlight-text" data-aos-delay="200" class="aos-init aos-animate">Address</mark></h2>
+                    <p class="fs-15">
+                        1355 Market St, Suite 900 <br>
+                        San Francisco, CA 94103<br>
+                        P: (123) 456-7890
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="text-center border-right">
+                    <img class="icon icon-lg bg-primary mb-3" src="/Content/img/icons/communication/active-call.svg" alt="Icon" data-inject-svg />
+                    <h2 class="h5"><mark data-aos="highlight-text" data-aos-delay="200" class="aos-init aos-animate">Phone</mark></h2>
+                    <ul class="list-unstyled fs-15">
+                        <li>
+                            <span class="d-inline-block text-color-dark fw-600">Office <span class="custom-text-color-1 float-right">:</span></span>
+                            <span class="value">
+                                <a href="tel:+18001234567" class="underline">800 123 4567</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="d-inline-block text-color-dark fw-600">Sale <span class="custom-text-color-1 float-right">:</span></span>
+                            <span class="value">
+                                <a href="tel:+18001234567" class="underline">800 123 4568</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="d-inline-block text-color-dark fw-600">Admin <span class="custom-text-color-1 float-right">:</span></span>
+                            <span class="value">
+                                <a href="tel:+18001234567" class="underline">800 123 4569</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="text-center">
+                    <img class="icon icon-lg bg-primary mb-3" src="/Content/img/icons/home/timer.svg" alt="Icon" data-inject-svg />
+                    <h2 class="h5"><mark data-aos="highlight-text" data-aos-delay="200" class="aos-init aos-animate">Office Hour</mark></h2>
+                    <ul class="list-unstyled fs-15">
+                        <li><strong>Monday-Friday: 	</strong>9am to 5pm	 </li>
+                        <li><strong>Saturday: 	</strong>10am to 2pm</li>
+                        <li><strong>Sunday: 	</strong>Closed		 </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container m-gab-3">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+
+        <h2 class="fw-500">Tell us about <mark data-aos="highlight-text" data-aos-delay="200" class="aos-init aos-animate">yourself</mark></h2>
+        <p class="lead">Whether you have questions or you would just like to say hello, contact us.</p>
+    </div>
+    <!-- End Title -->
+
+    <div class="w-lg-80 mx-auto">
+        <!-- Contacts Form -->
+        <form class="js-validate" novalidate="novalidate">
+            <div class="row">
+                <!-- Input -->
+                <div class="col-sm-6 mb-6">
+                    <div class="js-form-message">
+                        <label class="form-label">
+                            Your name
+                            <span class="text-danger">*</span>
+                        </label>
+
+                        <input type="text" class="form-control" name="name" placeholder="Jhon Doe" aria-label="Jhon Doe" required="" data-msg="Please enter your name." data-error-class="u-has-error" data-success-class="u-has-success">
+                    </div>
+                </div>
+                <!-- End Input -->
+                <!-- Input -->
+                <div class="col-sm-6 mb-6">
+                    <div class="js-form-message">
+                        <label class="form-label">
+                            Email address
+                            <span class="text-danger">*</span>
+                        </label>
+
+                        <input type="email" class="form-control" name="email" placeholder="your@gmail.com" aria-label="your@gmail.com" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
+                    </div>
+                </div>
+                <!-- End Input -->
+
+                <div class="w-100"></div>
+
+                <!-- Input -->
+                <div class="col-sm-6 mb-6">
+                    <div class="js-form-message">
+                        <label class="form-label">
+                            Subject
+                            <span class="text-danger">*</span>
+                        </label>
+
+                        <input type="text" class="form-control" name="subject" placeholder="IsraaApp design" aria-label="IsraaApp design" required="" data-msg="Please enter a subject." data-error-class="u-has-error" data-success-class="u-has-success">
+                    </div>
+                </div>
+                <!-- End Input -->
+                <!-- Input -->
+                <div class="col-sm-6 mb-6">
+                    <div class="js-form-message u-has-success">
+                        <label class="form-label">
+                            Phone number
+                            <span class="text-danger">*</span>
+                        </label>
+
+                        <input type="number" class="form-control" name="phone" placeholder="1-855-725-1800" aria-label="1-855-725-1800" required="" data-msg="Please enter a valid phone number." data-error-class="u-has-error" data-success-class="u-has-success" aria-invalid="false">
+                    </div>
+                </div>
+                <!-- End Input -->
+            </div>
+
+            <!-- Input -->
+            <div class="js-form-message mb-6">
+                <label class="form-label">
+                    How can we help you?
+                    <span class="text-danger">*</span>
+                </label>
+
+                <div class="input-group">
+                    <textarea class="form-control" rows="4" name="text" placeholder="What can we help you with?" aria-label="What can we help you with?" required="" data-msg="Please enter a reason." data-error-class="u-has-error" data-success-class="u-has-success"></textarea>
+                </div>
+            </div>
+            <!-- End Input -->
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-wide transition-3d-hover mb-4">Send Message</button>
+                <p class="small">We'll get back to you in 1-2 business days.</p>
+
+                <div class="social social-bg-gray social-lg text-center">
+                    <a class="social-facebook" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="social-twitter" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="social-gplus" href="#"><i class="fab fa-google-plus"></i></a>
+                    <a class="social-instagram" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="social-linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-git" href="#"><i class="fab fa-git"></i></a>
+                </div>
+            </div>
+        </form>
+        <!-- End Contacts Form -->
+    </div>
+</div>
+
+<section id="googlemaps" class="google-map google-map-burst-height h-500">
+    <div class="position-absolute w-100 h-100"
+         data-provide="map"
+         data-lat="41.0187429"
+         data-lng="28.6390396"
+         data-marker-lat="41.0187429"
+         data-marker-lng="28.6390396"
+         data-info="Üçevler mah, Urfalılar Cd. No:71/C, 34513 Esenyurt/İstanbul"></div>
+
+</section>
